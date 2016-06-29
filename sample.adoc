@@ -1,0 +1,37 @@
+= Sample title
+:toc: left
+:stylesheet: css/material.css
+:icons: font
+
+== Subheading
+
+* This is a list.
+* Look at this list go.
+** The list gets longer.
+* Who knows why?
+
+== Another Subheading
+
+NOTE: Lorem ipsum dolor si amet.
+
+Wolves run free innit mate.
+
+WARNING: Don't get too carried away.
+
+== Table
+
+[cols="2*" options="header"]
+|===
+|Firefox
+|Web Browser
+
+|Ruby
+|Programming Language
+
+|TorqueBox
+|Application Server
+|===
+
+== Picture
+.This is a captioned image
+image::resources/picture.jpg[]

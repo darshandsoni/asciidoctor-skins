@@ -1,0 +1,24 @@
+/* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import "asciidoctor.css"; /* Default asciidoc style framework - important */
+
+/* CUSTOMISATIONS */
+body{font-family: "Ubuntu",sans-serif;}
+
+h1,h2{color:#E95420 !important;font-family:"Ubuntu",sans-serif;}
+h3{color:#ba3925;}
+h4{color:#2c3e50;}
+.title{color:#E95420 !important;font-family:"Ubuntu",sans-serif;font-style: normal; font-weight: normal;}
+p{font-family: "Ubuntu",sans-serif ! important}
+#toc.toc2 a:link{color:white;}
+
+
+/* Table styles */
+th{background-color: #E95420;color:#FFFFFF;}
+
+
+
+#toc.toc2{background-color:#2C001E;color:white;}
+#toc.toc2.a{color:white;}
+#toctitle{color:#E95420;}
