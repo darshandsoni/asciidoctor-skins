@@ -1,0 +1,33 @@
+/* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+@import "asciidoctor.css"; /* Default asciidoc style framework - important */
+
+/* CUSTOMISATIONS */
+/* Change the values in root for quick customisation. If you want even more fine grain... venture further. */
+:root{
+--maincolor:#282c34;
+--accentcolor:;
+--sidebarbackground:#21252b;
+--linkcolor:#03a9f4;
+--linkcoloralternate:#ff9800;
+--white:#FFFFFF;
+}
+
+body{font-family: "Noto Sans",sans-serif;background-color: var(--maincolor);color:var(--white);}
+
+h1,h2{color:var(--linkcolor) !important;font-family:"Noto Sans",sans-serif;}
+h3{color:#ba3925;}
+h4{color:#2c3e50;}
+.title{color:var(--white) !important;font-family:"Noto Sans",sans-serif;font-style: normal; font-weight: normal;}
+p{font-family: "Noto Sans",sans-serif ! important}
+#toc.toc2 a:link{color:var(--linkcolor);}
+
+
+/* Table styles */
+th{background-color: var(--maincolor);color:var(--white) !important;}
+td{background-color: var(--maincolor);color: var(--linkcoloralternate) !important}
+
+
+#toc.toc2{background-color:var(--sidebarbackground);}
+#toctitle{color:var(--white);}
