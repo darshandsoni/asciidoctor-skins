@@ -1,47 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 1.5.4">
-<title>Sample title</title>
-<style>
-/* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
-
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
-@import "asciidoctor.css"; /* Default asciidoc style framework - important */
-
-/* CUSTOMISATIONS */
-
-body{font-family: "Noto Sans",sans-serif;}
-
-#header{background-color:#009688; padding:25px;max-width: none;}
-#footer{background-color: #004d40;}
-h1,h2{background-color:#009688;color:white !important;font-family:"Noto Sans",sans-serif;text-decoration:none;padding:10px;}
-h3{color:#ba3925;}
-h4{color:#2c3e50;}
-.title{color:#004d40 !important;font-family:"Noto Sans",sans-serif;font-style: normal; font-weight: normal;}
-p{font-family: "Noto Sans",sans-serif ! important}
-#toc.toc2 a:link{color:white;}
-
-/* Card styling */
-.sect1{border-bottom:1px solid grey;border-radius:8px;}
-
-/* Table styles */
-th{background-color: #80cbc4;color:#FFFFFF;}
-
-#toc.toc2{background-color:#004d40;color:white;}
-#toc.toc2.a{color:white;}
-#toctitle{color:white;font-size: 16px;}
-
-#toc.toc2{background-color:#004d40;color:white;}
-#toc.toc2.a{color:white;}
-#toctitle{color:#E95420;}
-
-</style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Asciidoctor 1.5.4">
+    <title>Sample title</title>
+    <link rel="stylesheet" href="asciidoctor.css">
+    <link rel="stylesheet" href="clean.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script type="text/javascript">
+      function quick_api() {
+        var geturl = location.href;
+        if (/\?/.test(geturl) == true) {
+          css = /\?([a-z\-_0-9]+)/.exec(geturl)[1];
+          document.getElementsByTagName("link")[1].href = "css/" + css + ".css";
+        }
+      }
+      quick_api();
+    </script>
+  </head>
 <body class="article toc2 toc-left">
 <div id="header">
 <h1>Sample title</h1>
