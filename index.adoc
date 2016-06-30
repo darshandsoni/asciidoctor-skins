@@ -1,37 +1,118 @@
 = Sample title
 :toc: left
-:stylesheet: css/material.css
+:stylesheet: css/clean.css
 :icons: font
 
-== Subheading
+== Text
 
-* This is a list.
-* Look at this list go.
-** The list gets longer.
-* Who knows why?
+=== Headings
 
-== Another Subheading
+[discrete]
+= Heading 1
+[discrete]
+== Heading 2
+[discrete]
+=== Heading 3
+[discrete]
+==== Heading 4
+[discrete]
+===== Heading 5
+[discrete]
+====== Heading 6
 
-NOTE: Lorem ipsum dolor si amet.
+=== Paragraphs
 
-Wolves run free innit mate.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra viverra nisl, vel maximus turpis ornare a. Ut scelerisque lectus sed odio dictum scelerisque vitae quis nisi. Nulla facilisi. Phasellus vehicula convallis nisl, id suscipit dui semper at. In eu iaculis lorem. In vehicula sed mauris et suscipit. Vivamus pellentesque non massa sit amet ornare. Integer placerat est vitae nisl molestie, eget rhoncus erat vulputate. Proin ornare massa eget bibendum faucibus.
 
-WARNING: Don't get too carried away.
+=== Blockquotes
 
-== Table
+"Etiam porttitor egestas elit, at venenatis neque accumsan eu. Nulla viverra odio nisi, quis commodo tellus tristique non. Proin ac ante at orci euismod eleifend. Quisque nisi sapien, dapibus in venenatis sit amet, posuere non purus. In sit amet metus erat. Pellentesque nec neque eleifend, luctus ipsum at, ullamcorper nunc. Pellentesque sagittis, dolor eu bibendum lacinia, orci ex bibendum risus, at tincidunt augue lacus eleifend diam. Nulla facilisis velit ut est auctor sollicitudin. Morbi eget lectus a lacus maximus molestie in ut lorem."
+-- Said no one, ever.
 
-[cols="2*" options="header"]
+=== Lists
+
+==== Ordered List
+
+. List item 1
+. List item 2
+.. Indented level 2
+... Indented level 3
+. List item 3
+
+==== Unordered List
+
+* List item 1
+* List item 2
+** Indented level 2
+*** Indented level 3
+**** Indented level 4
+***** Indented level 5
+* List item 3
+
+=== Inline elements
+
+* https://darshandsoni.com/asciidoctor-skins/[This is a text link].
+* *This is bold (strong) text.*
+* _This is italic (emphasis) text._
+* +++<u>This is underlined text</u>+++.
+* +++<del>This text is deleted</del>+++ and +++<ins>This text is inserted</ins>+++.
+* +++<s>This text has a strikethrough</s>+++.
+* Superscript^®^.
+* Subscript for things like H~2~O.
+* +++<small>This small text is small for for fine print, etc</small>+++.
+* The #mark element# indicates a highlight.
+
+== Horizontal rules
+
+'''
+
+== Tabular data
+
+[options="header,footer",caption=]
+.Table Caption
 |===
-|Firefox
-|Web Browser
-
-|Ruby
-|Programming Language
-
-|TorqueBox
-|Application Server
+|Table Heading 1 | Table Heading 2 | Table Heading 3 | Table Heading 4 | Table Heading 5
+|Table Cell 1 | Table Cell 2 | Table Cell 3 | Table Cell 4 | Table Cell 5
+|Table Cell 1 | Table Cell 2 | Table Cell 3 | Table Cell 4 | Table Cell 5
+|Table Cell 1 | Table Cell 2 | Table Cell 3 | Table Cell 4 | Table Cell 5
+|Table Cell 1 | Table Cell 2 | Table Cell 3 | Table Cell 4 | Table Cell 5
+|Table Footer 1 | Table Footer 2 | Table Footer 3 | Table Footer 4 | Table Footer 5
 |===
 
-== Picture
-.This is a captioned image
+== Code
+
+* Inline code: `<div>code</div>`
+* Pre-formatted text:
+
+[literal]
+P R E F O R M A T T E D T E X T
+! " # $ % & ' ( ) * + , - . /
+0 1 2 3 4 5 6 7 8 9 : ; < = > ?
+@ A B C D E F G H I J K L M N O
+P Q R S T U V W X Y Z [ \ ] ^ _
+` a b c d e f g h i j k l m n o
+p q r s t u v w x y z { | } ~ 
+
+== Form elements
+
+=== Checkboxes
+
+- [*] Choice A (checked)
+- [x] Choice B (also checked)
+- [ ] Choice C (not checked)
+-     normal list item
+
+== Embedded content
+
+=== Images
+
+.Here is a caption for this image.
 image::resources/picture.jpg[]
+
+=== Audio
+
++++<audio controls><source src="https://ia802702.us.archive.org/7/items/Best100InstrumentalSongs/001-RichardClayderman-BalladePourAdeline.mp3"></audio>+++
+
+=== Video
+
+video::https://github.com/benhosmer/HTML5-Test-Videos/blob/master/big_buck_bunny.mp4?raw=true[]

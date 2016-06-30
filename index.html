@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Asciidoctor 1.5.4">
     <title>Sample title</title>
-    <link rel="stylesheet" href="asciidoctor.css">
-    <link rel="stylesheet" href="clean.css">
+    <link rel="stylesheet" href="css/asciidoctor.css">
+    <link rel="stylesheet" href="css/clean.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
     <script type="text/javascript">
       function quick_api() {
@@ -20,120 +20,411 @@
       quick_api();
     </script>
   </head>
-<body class="article toc2 toc-left">
-<div id="header">
-<h1>Sample title</h1>
-<div id="toc" class="toc2">
-<div id="toctitle">Table of Contents</div>
-<ul class="sectlevel1">
-<li><a href="#_subheading">Subheading</a></li>
-<li><a href="#_another_subheading">Another Subheading</a></li>
-<li><a href="#_table">Table</a></li>
-<li><a href="#_picture">Picture</a></li>
-</ul>
-</div>
-</div>
-<div id="content">
-<div class="sect1">
-<h2 id="_subheading">Subheading</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p>This is a list.</p>
-</li>
-<li>
-<p>Look at this list go.</p>
-<div class="ulist">
-<ul>
-<li>
-<p>The list gets longer.</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Who knows why?</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_another_subheading">Another Subheading</h2>
-<div class="sectionbody">
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-Lorem ipsum dolor si amet.
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<p>Wolves run free innit mate.</p>
-</div>
-<div class="admonitionblock warning">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-warning" title="Warning"></i>
-</td>
-<td class="content">
-Don&#8217;t get too carried away.
-</td>
-</tr>
-</table>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_table">Table</h2>
-<div class="sectionbody">
-<table class="tableblock frame-all grid-all spread">
-<colgroup>
-<col style="width: 50%;">
-<col style="width: 50%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Firefox</th>
-<th class="tableblock halign-left valign-top">Web Browser</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Ruby</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Programming Language</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">TorqueBox</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Application Server</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_picture">Picture</h2>
-<div class="sectionbody">
-<div class="imageblock">
-<div class="content">
-<img src="resources/picture.jpg" alt="picture">
-</div>
-<div class="title">Figure 1. This is a captioned image</div>
-</div>
-</div>
-</div>
-</div>
-<div id="footer">
-<div id="footer-text">
-Last updated 2016-06-29 10:27:33 PDT
-</div>
-</div>
-</body>
+  <body class="article toc2 toc-left">
+    <div id="header">
+      <h1>Sample title</h1>
+      <div id="toc" class="toc2">
+        <div id="toctitle">Table of Contents</div>
+        <ul class="sectlevel1">
+          <li><a href="#_text">Text</a>
+            <ul class="sectlevel2">
+              <li><a href="#_headings">Headings</a>
+              </li>
+              <li><a href="#_paragraphs">Paragraphs</a>
+              </li>
+              <li><a href="#_blockquotes">Blockquotes</a>
+              </li>
+              <li><a href="#_lists">Lists</a>
+              </li>
+              <li><a href="#_inline_elements">Inline elements</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#_horizontal_rules">Horizontal rules</a>
+          </li>
+          <li><a href="#_tabular_data">Tabular data</a>
+          </li>
+          <li><a href="#_code">Code</a>
+          </li>
+          <li><a href="#_form_elements">Form elements</a>
+            <ul class="sectlevel2">
+              <li><a href="#_checkboxes">Checkboxes</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#_embedded_content">Embedded content</a>
+            <ul class="sectlevel2">
+              <li><a href="#_images">Images</a>
+              </li>
+              <li><a href="#_audio">Audio</a>
+              </li>
+              <li><a href="#_video">Video</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="content">
+      <div class="sect1">
+        <h2 id="_text">Text</h2>
+        <div class="sectionbody">
+          <div class="sect2">
+            <h3 id="_headings">Headings</h3>
+            <h1 id="_heading_1" class="discrete">Heading 1</h1>
+            <h2 id="_heading_2" class="discrete">Heading 2</h2>
+            <h3 id="_heading_3" class="discrete">Heading 3</h3>
+            <h4 id="_heading_4" class="discrete">Heading 4</h4>
+            <h5 id="_heading_5" class="discrete">Heading 5</h5>
+            <h6 id="_heading_6" class="discrete">Heading 6</h6>
+          </div>
+          <div class="sect2">
+            <h3 id="_paragraphs">Paragraphs</h3>
+            <div class="paragraph">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra viverra nisl, vel maximus turpis ornare a. Ut scelerisque lectus sed odio dictum scelerisque vitae quis nisi. Nulla facilisi. Phasellus vehicula convallis nisl, id suscipit dui semper at. In eu iaculis lorem. In vehicula sed mauris et suscipit. Vivamus pellentesque non massa sit amet ornare. Integer placerat est vitae nisl molestie, eget rhoncus erat vulputate. Proin ornare massa eget bibendum faucibus.</p>
+            </div>
+          </div>
+          <div class="sect2">
+            <h3 id="_blockquotes">Blockquotes</h3>
+            <div class="quoteblock">
+              <blockquote>
+                Etiam porttitor egestas elit, at venenatis neque accumsan eu. Nulla viverra odio nisi, quis commodo tellus tristique non. Proin ac ante at orci euismod eleifend. Quisque nisi sapien, dapibus in venenatis sit amet, posuere non purus. In sit amet metus erat. Pellentesque nec neque eleifend, luctus ipsum at, ullamcorper nunc. Pellentesque sagittis, dolor eu bibendum lacinia, orci ex bibendum risus, at tincidunt augue lacus eleifend diam. Nulla facilisis velit ut est auctor sollicitudin. Morbi eget lectus a lacus maximus molestie in ut lorem.
+              </blockquote>
+              <div class="attribution">
+                &#8212; Said no one
+                <br>
+                <cite>ever.</cite>
+              </div>
+            </div>
+          </div>
+          <div class="sect2">
+            <h3 id="_lists">Lists</h3>
+            <div class="sect3">
+              <h4 id="_ordered_list">Ordered List</h4>
+              <div class="olist arabic">
+                <ol class="arabic">
+                  <li>
+                    <p>List item 1</p>
+                  </li>
+                  <li>
+                    <p>List item 2</p>
+                    <div class="olist loweralpha">
+                      <ol class="loweralpha" type="a">
+                        <li>
+                          <p>Indented level 2</p>
+                          <div class="olist lowerroman">
+                            <ol class="lowerroman" type="i">
+                              <li>
+                                <p>Indented level 3</p>
+                              </li>
+                            </ol>
+                          </div>
+                        </li>
+                      </ol>
+                    </div>
+                  </li>
+                  <li>
+                    <p>List item 3</p>
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <div class="sect3">
+              <h4 id="_unordered_list">Unordered List</h4>
+              <div class="ulist">
+                <ul>
+                  <li>
+                    <p>List item 1</p>
+                  </li>
+                  <li>
+                    <p>List item 2</p>
+                    <div class="ulist">
+                      <ul>
+                        <li>
+                          <p>Indented level 2</p>
+                          <div class="ulist">
+                            <ul>
+                              <li>
+                                <p>Indented level 3</p>
+                                <div class="ulist">
+                                  <ul>
+                                    <li>
+                                      <p>Indented level 4</p>
+                                      <div class="ulist">
+                                        <ul>
+                                          <li>
+                                            <p>Indented level 5</p>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <p>List item 3</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="sect2">
+            <h3 id="_inline_elements">Inline elements</h3>
+            <div class="ulist">
+              <ul>
+                <li>
+                  <p><a href="https://darshandsoni.com/asciidoctor-skins/">This is a text link</a>.</p>
+                </li>
+                <li>
+                  <p><strong>This is bold (strong) text.</strong>
+                  </p>
+                </li>
+                <li>
+                  <p><em>This is italic (emphasis) text.</em>
+                  </p>
+                </li>
+                <li>
+                  <p><u>This is underlined text</u>.</p>
+                </li>
+                <li>
+                  <p><del>This text is deleted</del> and <ins>This text is inserted</ins>.</p>
+                </li>
+                <li>
+                  <p><s>This text has a strikethrough</s>.</p>
+                </li>
+                <li>
+                  <p>Superscript<sup>®</sup>.</p>
+                </li>
+                <li>
+                  <p>Subscript for things like H<sub>2</sub>O.</p>
+                </li>
+                <li>
+                  <p><small>This small text is small for for fine print, etc</small>.</p>
+                </li>
+                <li>
+                  <p>The
+                    <mark>mark element</mark> indicates a highlight.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sect1">
+        <h2 id="_horizontal_rules">Horizontal rules</h2>
+        <div class="sectionbody">
+          <hr>
+        </div>
+      </div>
+      <div class="sect1">
+        <h2 id="_tabular_data">Tabular data</h2>
+        <div class="sectionbody">
+          <table class="tableblock frame-all grid-all spread">
+            <caption class="title">Table Caption</caption>
+            <colgroup>
+              <col style="width: 20%;">
+                <col style="width: 20%;">
+                  <col style="width: 20%;">
+                    <col style="width: 20%;">
+                      <col style="width: 20%;">
+            </colgroup>
+            <thead>
+              <tr>
+                <th class="tableblock halign-left valign-top">Table Heading 1</th>
+                <th class="tableblock halign-left valign-top">Table Heading 2</th>
+                <th class="tableblock halign-left valign-top">Table Heading 3</th>
+                <th class="tableblock halign-left valign-top">Table Heading 4</th>
+                <th class="tableblock halign-left valign-top">Table Heading 5</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Footer 1</p>
+                </td>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Footer 2</p>
+                </td>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Footer 3</p>
+                </td>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Footer 4</p>
+                </td>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Footer 5</p>
+                </td>
+              </tr>
+            </tfoot>
+            <tbody>
+              <tr>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Cell 1</p>
+                </td>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Cell 2</p>
+                </td>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Cell 3</p>
+                </td>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Cell 4</p>
+                </td>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Cell 5</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Cell 1</p>
+                </td>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Cell 2</p>
+                </td>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Cell 3</p>
+                </td>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Cell 4</p>
+                </td>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Cell 5</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Cell 1</p>
+                </td>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Cell 2</p>
+                </td>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Cell 3</p>
+                </td>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Cell 4</p>
+                </td>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Cell 5</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Cell 1</p>
+                </td>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Cell 2</p>
+                </td>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Cell 3</p>
+                </td>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Cell 4</p>
+                </td>
+                <td class="tableblock halign-left valign-top">
+                  <p class="tableblock">Table Cell 5</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="sect1">
+        <h2 id="_code">Code</h2>
+        <div class="sectionbody">
+          <div class="ulist">
+            <ul>
+              <li>
+                <p>Inline code: <code>&lt;div&gt;code&lt;/div&gt;</code>
+                </p>
+              </li>
+              <li>
+                <p>Pre-formatted text:</p>
+              </li>
+            </ul>
+          </div>
+          <div class="literalblock">
+            <div class="content">
+              <pre>P R E F O R M A T T E D T E X T
+! " # $ % &amp; ' ( ) * + , - . /
+0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ?
+@ A B C D E F G H I J K L M N O
+P Q R S T U V W X Y Z [ \ ] ^ _
+` a b c d e f g h i j k l m n o
+p q r s t u v w x y z { | } ~</pre>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sect1">
+        <h2 id="_form_elements">Form elements</h2>
+        <div class="sectionbody">
+          <div class="sect2">
+            <h3 id="_checkboxes">Checkboxes</h3>
+            <div class="ulist checklist">
+              <ul class="checklist">
+                <li>
+                  <p><i class="fa fa-check-square-o"></i> Choice A (checked)</p>
+                </li>
+                <li>
+                  <p><i class="fa fa-check-square-o"></i> Choice B (also checked)</p>
+                </li>
+                <li>
+                  <p><i class="fa fa-square-o"></i> Choice C (not checked)</p>
+                </li>
+                <li>
+                  <p>normal list item</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sect1">
+        <h2 id="_embedded_content">Embedded content</h2>
+        <div class="sectionbody">
+          <div class="sect2">
+            <h3 id="_images">Images</h3>
+            <div class="imageblock">
+              <div class="content">
+                <img src="resources/picture.jpg" alt="picture">
+              </div>
+              <div class="title">Figure 1. Here is a caption for this image.</div>
+            </div>
+          </div>
+          <div class="sect2">
+            <h3 id="_audio">Audio</h3>
+            <div class="paragraph">
+              <p>
+                <audio controls>
+                  <source src="https://ia802702.us.archive.org/7/items/Best100InstrumentalSongs/001-RichardClayderman-BalladePourAdeline.mp3">
+                </audio>
+              </p>
+            </div>
+          </div>
+          <div class="sect2">
+            <h3 id="_video">Video</h3>
+            <div class="videoblock">
+              <div class="content">
+                <video src="https://github.com/benhosmer/HTML5-Test-Videos/blob/master/big_buck_bunny.mp4?raw=true" controls>
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div id="footer-text">
+        Last updated 2016-06-30 04:16:33 PDT
+      </div>
+    </div>
+  </body>
 </html>
