@@ -22,8 +22,8 @@ body{font-family: "Noto Sans",sans-serif;}
 
 #header{background-color:var(--primarycolor); padding:25px;max-width: none;}
 #footer{background-color: var(--linkcolor);}
-h1,h2{background-color:var(--primarycolor);color:var(--white) !important;font-family:"Noto Sans",sans-serif;text-decoration:none;padding:10px;}
-h3,h4,h5,h6{color:var(--primarycolor);}
+h1,h2,h3{background-color:var(--primarycolor);color:var(--white) !important;font-family:"Noto Sans",sans-serif;text-decoration:none;padding:10px;}
+h4,h5,h6{color:var(--primarycolor);}
 .title{color:var(--linkcolor) !important;font-family:"Noto Sans",sans-serif;font-style: normal; font-weight: normal;}
 p{font-family: "Noto Sans",sans-serif ! important}
 #toc.toc2 a:link{color:white;}
