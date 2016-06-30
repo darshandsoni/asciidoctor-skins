@@ -22,20 +22,34 @@ h1 {
   color: rgba(0,0,0,.8);
   word-wrap: break-word;
 }
+h1 {
+  border-bottom: 0!important;
+}
 
-h2, h3, h4 {
+h2, h3, h4, h5, h6 {
   margin-top: 39px;
   font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 28px;
   margin-left: -1.75px;
   line-height: 1.22;
   letter-spacing: -.022em;
   color: rgba(0,0,0,.44);
 }
-h1 {
-  border-bottom: 0!important;
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 26px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 22px;
+}
+h6 {
+  font-size: 20px;
 }
 
 #toc {
@@ -56,6 +70,9 @@ blockquote {
   padding: 0;
   padding-left: 50px;
   text-align: left;
+}
+blockquote:before {
+  color: rgba(0,0,0,.6)!important;
 }
 
 .byline {
@@ -134,4 +151,8 @@ p {
 .title a:hover {
   outline: 0;
   color: inherit;
+}
+
+tfoot .tableblock {
+  font-weight: bold;
 }
