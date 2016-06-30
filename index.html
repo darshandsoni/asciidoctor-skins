@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Asciidoctor 1.5.4">
-    <title>Sample title</title>
-    <link rel="stylesheet" href="asciidoctor.css">
-    <link rel="stylesheet" href="clean.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-    <script type="text/javascript">
-      function quick_api() {
-        var geturl = location.href;
-        if (/\?/.test(geturl) == true) {
-          css = /\?([a-z\-_0-9]+)/.exec(geturl)[1];
-          document.getElementsByTagName("link")[1].href = "css/" + css + ".css";
-        }
-      }
-      quick_api();
-    </script>
-  </head>
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.4">
+<title>Sample title</title>
+<style>
+/* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
+
+@import "https://fonts.googleapis.com/css?family=Noto+Sans:300,600italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";
+@import "asciidoctor.css"; /* Default asciidoc style framework - important */
+
+/* CUSTOMISATIONS */
+
+h1{color:#2c3e50 !important;}
+h2{color:#ba3925 !important;}
+h3{color:#ba3925 !important;}
+h4{color:#2c3e50 !important;}
+.title{color:#186d7a !important; font-family:"Noto Sans",sans-serif !important;font-style: normal !important; font-weight: normal !important;}
+p{font-family: "Noto Sans",sans-serif ! important}
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
 <body class="article toc2 toc-left">
 <div id="header">
 <h1>Sample title</h1>
@@ -114,6 +118,18 @@ Don&#8217;t get too carried away.
 <td class="tableblock halign-left valign-top"><p class="tableblock">TorqueBox</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Application Server</p></td>
 </tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Chrome</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Web Browser</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Python</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Programming Language</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Rust</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Programming Language</p></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -132,7 +148,7 @@ Don&#8217;t get too carried away.
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2016-06-29 10:27:33 PDT
+Last updated 2016-06-29 17:35:00 PDT
 </div>
 </div>
 </body>

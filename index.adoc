@@ -1,6 +1,6 @@
 = Sample title
 :toc: left
-:stylesheet: css/material.css
+:stylesheet: css/clean.css
 :icons: font
 
 == Subheading
@@ -30,6 +30,16 @@ WARNING: Don't get too carried away.
 
 |TorqueBox
 |Application Server
+
+|Chrome
+|Web Browser
+
+|Python
+|Programming Language
+
+|Rust
+|Programming Language
+
 |===
 
 == Picture
