@@ -1,13 +1,28 @@
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
 
 @import "https://fonts.googleapis.com/css?family=Noto+Sans:300,600italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";
-@import "asciidoctor.css"; /* Default asciidoc style framework - important */
+@import "css/asciidoctor.css"; /* Default asciidoc style framework - important */
 
 /* CUSTOMISATIONS */
+/* Change the values in root for quick customisation. If you want even more fine grain... venture further. */
 
-h1{color:#2c3e50 !important;}
-h2{color:#ba3925 !important;}
-h3{color:#ba3925 !important;}
-h4{color:#2c3e50 !important;}
-.title{color:#186d7a !important; font-family:"Noto Sans",sans-serif !important;font-style: normal !important; font-weight: normal !important;}
-p{font-family: "Noto Sans",sans-serif ! important}
+:root{
+--maincolor:#FFFFFF;
+--primarycolor:#2c3e50;
+--secondarycolor:#ba3925;
+--tertiarycolor: #186d7a;
+--sidebarbackground:#CCC;
+--linkcolor:#b71c1c;
+--linkcoloralternate:#f44336;
+--white:#FFFFFF;
+--black:#000000;
+}
+
+/* Text styles */
+h1{color:var(--primarycolor) !important;}
+h2,h3,h4,h5,h6{color:var(--secondarycolor) !important;}
+.title{color:var(--tertiarycolor) !important; font-family:"Noto Sans",sans-serif !important;font-style: normal !important; font-weight: normal !important;}
+p{font-family: "Noto Sans",sans-serif !important}
+
+/* Table styles */
+th{font-family: "Noto Sans",sans-serif !important}
