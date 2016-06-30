@@ -1,33 +1,32 @@
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
 
 @import url(https://fonts.googleapis.com/css?family=Galada|Lato);
-@import "asciidoctor.css"; /* Default asciidoc style framework - important */
+@import "css/asciidoctor.css"; /* Default asciidoc style framework - important */
 
 /* CUSTOMISATIONS */
 /* Change the values in root for quick customisation. If you want even more fine grain... venture further. */
 :root{
 --maincolor:#FFFFFF;
---accentcolor:#b71c1c;
+--primarycolor:#b71c1c;
 --sidebarbackground:#CCC;
 --linkcolor:#b71c1c;
 --linkcoloralternate:#f44336;
 --white:#FFFFFF;
 --black:#000000;
+--grey:#212121;
 }
 
 body{font-family: "Lato",sans-serif;background-color: var(--maincolor);color:var(--black);}
 
-h1,h2{color:var(--linkcolor) !important;font-family:"Galada",sans-serif;}
-h3{color:#ba3925;}
-h4{color:#2c3e50;}
+h1,h2,h3,h4,h5,h6{color:var(--primarycolor) !important;font-family:"Galada",sans-serif;}
 .title{color:var(--white) !important;font-family:"Galada",sans-serif;font-style: normal; font-weight: normal;}
-p{font-family: "Lato",sans-serif ! important}
+p{font-family: "Lato",sans-serif ! important;color:var(--grey)}
 #toc.toc2 a:link{color:var(--linkcolor);}
 
 
 /* Table styles */
-th{background-color: var(--accentcolor);color:var(--black) !important;}
-td{color: var(--black) !important}
+th{background-color: var(--primarycolor);color:var(--black) !important;color:var(--white) !important}
+td{color: var(--black)}
 tr:nth-child(even) {background-color: #FFF !important}
 tr:nth-child(odd) {background: #CCC !important}
 
