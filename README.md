@@ -36,6 +36,12 @@ Available stylesheets:
 * [template](http://darshandsoni.com/asciidoctor-skins/?template)
 * [ubuntu](http://darshandsoni.com/asciidoctor-skins/?ubuntu)
 
+## Contribution
+The purpose of this project is to allow asciidoc/asciidoctor users greater flexibility when it comes to customising the look and feel of their documentation. Apart from the available stylesheets, you are welcome to build your own. If you think the world could use it, submit a pull request and it will be featured too!
+You can either edit template.css (which has most elements listed), or create your own stylesheets from scratch.
+
+>NOTE: Please be sure to include an appropriate licence with your contributions. To avoid interference with the API, you can simply include your licence as a comment in your CSS file. Including an appropriate licence helps users determine how they can use your stylesheets long after users are gone and projects are no longer maintained.
+
 ## Credits
 
 * Demo based on [html5-test-page](https://github.com/cbracco/html5-test-page) by @cbracco
