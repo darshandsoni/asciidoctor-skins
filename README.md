@@ -2,9 +2,7 @@
 
 Markdown is superbly simple. Perfect for writing quick notes and pages with a basic structure. Asciidoctor is superbly sophisticated. Where markdown fails, asciidoc/asciidoctor allows you to document things with ease, fine grain control and a civilised demeanor, worlds away from hair wrenching word processors.
 
-But the default asciidoc "look" may be getting boring.
-
-Right! Let's fix that.
+Asciidoctor comes with a very clean default stylesheet that saves users from spending time formatting their documents. This repository is for users who would like some other style choices, without having to rewrite stylesheets from scratch. All stylesheets in here pull in asciidoctor's defaults first and then apply custom styles to a few elements.
 
 ## Usage
 
