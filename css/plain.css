@@ -7,32 +7,35 @@
 /* Change the values in root for quick customisation. If you want even more fine grain... venture further. */
 :root{
 --maincolor:#FFFFFF;
---primarycolor:#f39c12;
---secondarycolor:#03a9f4;
---tertiarycolor:#4db6ac;
---sidebarbackground:#21252b;
---linkcolor:#f44336;
---linkcoloralternate:#ff9800;
+--primarycolor:#000000;
+--secondarycolor:#AAAAAA;
+--tertiarycolor:#CCCCCC;
+--sidebarbackground:#CACACA;
+--linkcolor:#0D47A1;
+--linkcoloralternate:#B71C1C;
 --white:#FFFFFF;
+--black:#000000;
 }
 
 /* Text styles */
 
-body{font-family: "Noto Sans",sans-serif;background-color: var(--maincolor);color:var(--white);}
+body{font-family: "Noto Sans",sans-serif;background-color: var(--maincolor);color:var(--black);}
 
 h1{color:var(--primarycolor) !important;font-family:"Noto Sans",sans-serif;}
 h2,h3,h4,h5,h6{color:var(--secondarycolor) !important;font-family:"Noto Sans",sans-serif;}
 .title{color:var(--white) !important;font-family:"Noto Sans",sans-serif;font-style: normal; font-weight: normal;}
+a{text-decoration: none;}
 p{font-family: "Noto Sans",sans-serif ! important}
 #toc.toc2 a:link{color:var(--linkcolor);}
-blockquote{color:var(--tertiarycolor) !important}
-.quoteblock{color:var(--white)}
+blockquote{color:var(--secondarycolor) !important}
+.quoteblock{color:var(--black)}
+.quoteblock blockquote:before{color:var(--black)}
 code{color:var(--linkcoloralternate);background-color: var(--sidebarbackground) !important}
 
 
 /* Table styles */
-th{background-color: var(--maincolor);color:var(--white) !important;}
-td{background-color: var(--maincolor);color: var(--linkcoloralternate) !important}
+th{background-color: var(--maincolor);color:var(--black) !important;}
+td{background-color: var(--maincolor);color: var(--black) !important}
 
 
 #toc.toc2{background-color:var(--sidebarbackground);}
