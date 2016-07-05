@@ -40,7 +40,8 @@ Available stylesheets:
 The purpose of this project is to allow asciidoc/asciidoctor users greater flexibility when it comes to customising the look and feel of their documentation. Apart from the available stylesheets, you are welcome to build your own. If you think the world could use it, submit a pull request and it will be featured too!
 You can either edit template.css (which has most elements listed), or create your own stylesheets from scratch.
 
->NOTE: Please be sure to include an appropriate licence with your contributions. To avoid interference with the API, you can simply include your licence as a comment in your CSS file. Including an appropriate licence helps users determine how they can use your stylesheets long after users are gone and projects are no longer maintained.
+### Licence Agreement
+By contributing changes to this repository, you agree to license your contributions under the [MIT license](https://github.com/darshandsoni/asciidoctor-skins/blob/gh-pages/LICENSE). This ensures your contributions have the same license as the project and that the community is free to use your contributions. You also assert that you are the original author of the work that you are contributing unless otherwise stated.
 
 ## Credits
 
