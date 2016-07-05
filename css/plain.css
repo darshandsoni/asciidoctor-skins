@@ -31,6 +31,7 @@ blockquote{color:var(--secondarycolor) !important}
 .quoteblock{color:var(--black)}
 .quoteblock blockquote:before{color:var(--black)}
 code{color:var(--linkcoloralternate);background-color: var(--sidebarbackground) !important}
+mark{background-color: var(--tertiarycolor)} /* Text highlighting color */
 
 
 /* Table styles */
