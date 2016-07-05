@@ -32,6 +32,8 @@ Available stylesheets:
 * [italian-pop](http://darshandsoni.com/asciidoctor-skins/?italian-pop)
 * [material](http://darshandsoni.com/asciidoctor-skins/?material)
 * [medium](http://darshandsoni.com/asciidoctor-skins/?medium)
+* [plain](http://darshandsoni.com/asciidoctor-skins/?plain)
+* [template](http://darshandsoni.com/asciidoctor-skins/?template)
 * [ubuntu](http://darshandsoni.com/asciidoctor-skins/?ubuntu)
 
 ## Credits
