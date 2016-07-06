@@ -1,0 +1,45 @@
+/* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
+
+@import url(https://fonts.googleapis.com/css?family=Cabin+Sketch|Architects+Daughter);
+@import "css/asciidoctor.css"; /* Default asciidoc style framework - important */
+
+/* CUSTOMISATIONS */
+/* Change the values in root for quick customisation. If you want even more fine grain... venture further. */
+:root{
+--maincolor:#FFFFFF;
+--primarycolor:#000000;
+--secondarycolor:#1a237e;
+--tertiarycolor:#CCCCCC;
+--highlightcolor: #ffd600;
+--sidebarbackground:#CACACA;
+--linkcolor:#0D47A1;
+--linkcoloralternate:#B71C1C;
+--stickynote: #f9a825;
+--white:#FFFFFF;
+--black:#000000;
+}
+
+/* Text styles */
+
+body{font-family: "Architects Daughter",sans-serif;background-color: #fff;background-image:linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),linear-gradient(#eee .15em, transparent .15em);background-size: 100% 1.2em;}
+
+h1{color:var(--primarycolor) !important;font-family:"Cabin Sketch",sans-serif;}
+h2,h3,h4,h5,h6{color:var(--secondarycolor) !important;font-family:"Cabin Sketch",sans-serif;}
+.title{color:var(--white) !important;font-family:"Architects Daughter",sans-serif;font-style: normal; font-weight: normal;}
+/*a{text-decoration: none;}*/
+p{font-family: "Architects Daughter",sans-serif ! important}
+#toc.toc2 a:link{color:var(--linkcolor); font-family: "Architects Daughter" !important}
+blockquote{color:var(--secondarycolor) !important}
+.quoteblock{color:var(--black)}
+.quoteblock blockquote:before{color:var(--black)}
+code{color:var(--highlightcolor);background-color: var(--black) !important}
+mark{background-color: var(--highlightcolor)} /* Text highlighting color */
+pre{background-color: var(--stickynote) !important;color:var(--secondarycolor);font-family: monospace;}
+
+/* Table styles */
+th{background-color: var(--maincolor);color:var(--black) !important;}
+td{background-color: var(--maincolor);color: var(--black) !important}
+
+
+#toc.toc2{background-color:var(--sidebarbackground);font-family: "Architects Daughter",sans-serif;}
+#toctitle{color:var(--white); font-family: "Cabin Sketch"}
