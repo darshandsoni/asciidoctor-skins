@@ -27,6 +27,7 @@ Available stylesheets:
 * [default asciidoctor stylesheet](http://darshandsoni.com/asciidoctor-skins/?asciidoctor)
 * [clean](http://darshandsoni.com/asciidoctor-skins/?clean)
 * [dark](http://darshandsoni.com/asciidoctor-skins/?dark)
+* [fedora](http://darshandsoni.com/asciidoctor-skins/?fedora)
 * [italian-pop](http://darshandsoni.com/asciidoctor-skins/?italian-pop)
 * [material](http://darshandsoni.com/asciidoctor-skins/?material)
 * [medium](http://darshandsoni.com/asciidoctor-skins/?medium)
