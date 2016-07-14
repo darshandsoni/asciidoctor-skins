@@ -23,7 +23,7 @@ body{font-family: "Source Serif Pro",sans-serif;background-color: var(--maincolo
 
 h1{color:var(--primarycolor) !important;font-family:"UnifrakturMaguntia",serif;}
 h2,h3,h4,h5,h6{color:var(--primarycolor) !important;font-family:"Source Sans Pro",sans-serif; font-weight: bold;}
-.title{color:var(--white) !important;font-family:"Source Serif Pro",serif;font-style: normal; font-weight: normal;}
+.title{color:var(--black) !important;font-family:"Source Serif Pro",serif;font-style: normal; font-weight: normal;}
 a{text-decoration: none;}
 p{font-family: "Source Serif Pro",serif ! important}
 #toc.toc2 a:link{color:var(--linkcolor); font-family: "Source Serif Pro",serif;}

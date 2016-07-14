@@ -19,7 +19,7 @@
 body{font-family: "Lato",sans-serif;background-color: var(--maincolor);color:var(--black);}
 
 h1,h2,h3,h4,h5,h6{color:var(--primarycolor) !important;font-family:"Galada",sans-serif;}
-.title{color:var(--white) !important;font-family:"Galada",sans-serif;font-style: normal; font-weight: normal;}
+.title{color:var(--black) !important;font-family:"Galada",sans-serif;font-style: normal; font-weight: normal;}
 p{font-family: "Lato",sans-serif ! important;color:var(--grey)}
 #toc.toc2 a:link{color:var(--linkcolor);}
 

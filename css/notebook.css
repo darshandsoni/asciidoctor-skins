@@ -25,7 +25,7 @@ body{font-family: "Architects Daughter",sans-serif;background-color: #fff;backgr
 
 h1{color:var(--primarycolor) !important;font-family:"Cabin Sketch",sans-serif;}
 h2,h3,h4,h5,h6{color:var(--secondarycolor) !important;font-family:"Cabin Sketch",sans-serif;}
-.title{color:var(--white) !important;font-family:"Architects Daughter",sans-serif;font-style: normal; font-weight: normal;}
+.title{color:var(--black) !important;font-family:"Architects Daughter",sans-serif;font-style: normal; font-weight: normal;}
 /*a{text-decoration: none;}*/
 p{font-family: "Architects Daughter",sans-serif ! important}
 #toc.toc2 a:link{color:var(--linkcolor); font-family: "Architects Daughter" !important}

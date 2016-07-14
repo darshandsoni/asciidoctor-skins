@@ -23,7 +23,7 @@ body{font-family: "Noto Sans",sans-serif;background-color: var(--maincolor);colo
 
 h1{color:var(--primarycolor) !important;font-family:"Noto Sans",sans-serif;}
 h2,h3,h4,h5,h6{color:var(--secondarycolor) !important;font-family:"Noto Sans",sans-serif;}
-.title{color:var(--white) !important;font-family:"Noto Sans",sans-serif;font-style: normal; font-weight: normal;}
+.title{color:var(--black) !important;font-family:"Noto Sans",sans-serif;font-style: normal; font-weight: normal;}
 a{text-decoration: none;}
 p{font-family: "Noto Sans",sans-serif ! important}
 #toc.toc2 a:link{color:var(--linkcolor);}
