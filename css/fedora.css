@@ -1,7 +1,7 @@
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat|Open+Sans);
-@import "css/asciidoctor.css"; /* Default asciidoc style framework - important */
+@import "asciidoctor.css"; /* Default asciidoc style framework - important */
 
 /* CUSTOMISATIONS */
 /* Change the values in root for quick customisation. If you want even more fine grain... venture further. */
