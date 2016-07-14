@@ -13,30 +13,125 @@
 --sidebarbackground:#FFFFFF;
 --linkcolor:#0D47A1;
 --linkcoloralternate:#B71C1C;
---white:#FFFFFF;
---black:#000000;
 }
 
 /* Text styles */
 
-body{font-family: "Source Serif Pro",sans-serif;background-color: var(--maincolor);color:var(--black);}
+body {
+  font-family: "Source Serif Pro", serif;
+  background-color: var(--maincolor);
+  color: black;
+}
 
-h1{color:var(--primarycolor) !important;font-family:"UnifrakturMaguntia",serif;}
-h2,h3,h4,h5,h6{color:var(--primarycolor) !important;font-family:"Source Sans Pro",sans-serif; font-weight: bold;}
-.title{color:var(--black) !important;font-family:"Source Serif Pro",serif;font-style: normal; font-weight: normal;}
-a{text-decoration: none;}
-p{font-family: "Source Serif Pro",serif ! important}
-#toc.toc2 a:link{color:var(--linkcolor); font-family: "Source Serif Pro",serif;}
-blockquote{color:var(--secondarycolor) !important}
-.quoteblock{color:var(--black)}
-.quoteblock blockquote:before{color:var(--black)}
-code{color:var(--white);background-color: var(--secondarycolor) !important}
-mark{background-color: var(--tertiarycolor)} /* Text highlighting color */
+h1,h2,h3,h4,h5,h6 {
+  color: var(--primarycolor) !important;
+}
+h1 {
+  font-family: "UnifrakturMaguntia", serif;
+}
+#header h1 {
+  border-bottom: 2px solid black!important;
+}
+h2 {
+  font-family: "Source Serif Pro", serif;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: "Source Serif Pro", serif;
+  font-style: italic;
+  font-weight: bold;
+}
+h4 {
+  font-family:'Times New Roman',Times,serif;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+h5 {
+  font-family:'Times New Roman',Times,serif;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+h6 {
+  font-family: "Source Serif Pro", serif;
+  font-weight: bold;
+}
+hr {
+  border-color: black;
+}
+
+.title {
+  color: black !important;
+  font-family: "Source Serif Pro", serif;
+  font-style: normal;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  color: #5A5A5A!important;
+}
+p {
+  font-family: "Source Serif Pro", serif !important;
+}
+#toc.toc2 a:link {
+  color: var(--linkcolor);
+  font-family: "Source Serif Pro", serif;
+}
+blockquote {
+  color: var(--primarycolor) !important;
+}
+.quoteblock {
+  color: black;
+}
+.quoteblock blockquote:before {
+  color: black;
+}
+code {
+  color: white;
+  background-color: var(--secondarycolor) !important;
+}
+mark {
+  background-color: var(--tertiarycolor);
+} /* Text highlighting color */
+
+cite {
+  color: var(--primarycolor)!important;
+}
+
+pre {
+  background-color: var(--maincolor)!important;
+}
+code {
+/*   background-color: var(--maincolor)!important; */
+}
+
+img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+video {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
 
 /* Table styles */
-th{background-color: var(--maincolor);color:var(--black) !important;}
-td{background-color: var(--maincolor);color: var(--black) !important}
+th {
+  background-color: var(--maincolor);
+  color: black !important;
+}
+td {
+  background-color: var(--maincolor);
+  color: black !important;
+}
 
 
-#toc.toc2{background-color:var(--sidebarbackground);}
-#toctitle{color:var(--black); font-family: "Source Sans Pro",serif;font-weight: bold;}
+#toc.toc2 {
+  background-color: var(--sidebarbackground);
+}
+#toctitle {
+  color: black;
+  font-family: "Source Serif Pro", serif;
+  font-weight: bold;
+  padding-top: 20px;
+}
