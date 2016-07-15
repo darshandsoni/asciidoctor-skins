@@ -35,6 +35,7 @@ Available stylesheets:
 * [notebook](http://darshandsoni.com/asciidoctor-skins/?notebook)
 * [plain](http://darshandsoni.com/asciidoctor-skins/?plain)
 * [template](http://darshandsoni.com/asciidoctor-skins/?template)
+* [tufte](http://darshandsoni.com/asciidoctor-skins/?tufte)
 * [ubuntu](http://darshandsoni.com/asciidoctor-skins/?ubuntu)
 
 ## Contribution
