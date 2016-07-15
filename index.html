@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Asciidoctor 1.5.4">
     <title>Sample title</title>
-    <link rel="stylesheet" href="css/asciidoctor.css">
     <link rel="stylesheet" href="css/clean.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
     <script type="text/javascript">
@@ -14,7 +13,7 @@
         var geturl = location.href;
         if (/\?/.test(geturl) == true) {
           css = /\?([a-z\-_0-9]+)/.exec(geturl)[1];
-          document.getElementsByTagName("link")[1].href = "css/" + css + ".css";
+          document.getElementsByTagName("link")[0].href = "css/" + css + ".css";
         }
       }
       quick_api();
