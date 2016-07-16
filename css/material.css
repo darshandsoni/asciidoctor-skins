@@ -11,8 +11,8 @@
 --primarycolor:#009688;
 --secondarycolor:#ba3925;
 --tertiarycolor: #186d7a;
---sidebarbackground:#CCC;
---linkcolor:#004d40;
+--sidebarbackground:#004d40;
+--linkcolor:#80cbc4;
 --linkcoloralternate:#f44336;
 --white:#FFFFFF;
 --black:#000000;
@@ -21,12 +21,27 @@
 body{font-family: "Noto Sans",sans-serif;}
 
 #header{background-color:var(--primarycolor); padding:25px;max-width: none;}
-#footer{background-color: var(--linkcolor);}
+#footer{background-color: var(--sidebarbackground);}
 h1,h2,h3{background-color:var(--primarycolor);color:var(--white) !important;font-family:"Noto Sans",sans-serif;text-decoration:none;padding:10px;}
 h4,h5,h6{color:var(--primarycolor);}
-.title{color:var(--linkcolor) !important;font-family:"Noto Sans",sans-serif;font-style: normal; font-weight: normal;}
+.title{color:var(--sidebarbackground) !important;font-family:"Noto Sans",sans-serif;font-style: normal; font-weight: normal;}
 p{font-family: "Noto Sans",sans-serif ! important}
 #toc.toc2 a:link{color:white;}
+
+a {
+  text-decoration: none;
+  color: var(--linkcolor);
+}
+a:hover {
+  color: var(--sidebarbackground);
+}
+.quoteblock blockquote::before {
+  color: var(--linkcolor);
+}
+mark {
+  color: var(--white);
+  background-color: #80cbc4;
+}
 
 /* Card styling */
 .sect1{border-bottom:1px solid grey;border-radius:8px;}
@@ -34,8 +49,19 @@ p{font-family: "Noto Sans",sans-serif ! important}
 /* Table styles */
 th{background-color: #80cbc4;color:#FFFFFF;}
 
-#toc.toc2{background-color:var(--linkcolor);color:white !important;}
+#toc.toc2{background-color:var(--sidebarbackground);color:white !important;}
 #toc.toc2.a{color:var(--white);}
 #toc.toc2.a:active{color:var(--white) !important;}
 #toc.toc2.a:visited{color:var(--white) !important;}
 #toctitle{color:white;font-size: 16px;}
+
+/* Responsiveness fixes */
+video {
+  max-width: 100%;
+}
+
+@media all and (max-width: 600px) {
+table {
+  width: 55vw!important;
+  font-size: 3vw;
+}

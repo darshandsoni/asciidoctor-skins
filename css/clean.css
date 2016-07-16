@@ -26,3 +26,14 @@ p{font-family: "Noto Sans",sans-serif !important}
 
 /* Table styles */
 th{font-family: "Noto Sans",sans-serif !important}
+
+/* Responsiveness fixes */
+video {
+  max-width: 100%;
+}
+
+@media all and (max-width: 600px) {
+table {
+  width: 55vw!important;
+  font-size: 3vw;
+}

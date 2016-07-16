@@ -69,6 +69,11 @@ blockquote {
   font-style: italic;
 }
 
+/* the quotation mark itself (before the block) */
+.quoteblock blockquote::before {
+  color: blue;
+}
+
 /* blockquote attribution text */
 .attribution {
   font-size: x-large;
@@ -175,7 +180,9 @@ pre {
 }
 
 /* image */
-img {}
+img {
+  max-width: 100%;
+}
 /* image caption */
 .imageblock .title {
   font-weight: bold!important;
@@ -195,4 +202,15 @@ video {}
 #footer-text {
   font-weight: bold;
   color: white;
+}
+
+/* Responsiveness fixes */
+video {
+  max-width: 100%;
+}
+
+@media all and (max-width: 600px) {
+table {
+  width: 55vw!important;
+  font-size: 3vw;
 }

@@ -43,3 +43,14 @@ td{background-color: var(--maincolor);color: var(--black) !important}
 
 #toc.toc2{background-color:var(--sidebarbackground);font-family: "Architects Daughter",sans-serif;}
 #toctitle{color:var(--white); font-family: "Cabin Sketch"}
+
+/* Responsiveness fixes */
+video {
+  max-width: 100%;
+}
+
+@media all and (max-width: 600px) {
+table {
+  width: 55vw!important;
+  font-size: 3vw;
+}
