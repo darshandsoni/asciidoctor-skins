@@ -5,9 +5,9 @@ body {
   line-height: 1.58;
   letter-spacing: -.003em;
   margin-top: 29px;
-  width: 700px;
+  width: 90vh;
   margin: 0 auto;
-  padding-left: 0!important;
+  padding-left: 5vw!important;
 }
 
 h1 {
@@ -155,4 +155,22 @@ p {
 
 tfoot .tableblock {
   font-weight: bold;
+}
+
+/* Responsiveness fixes */
+img {
+  max-width: 100%;
+}
+video {
+  max-width: 85vw;
+}
+
+@media all and (max-width: 600px) {
+table {
+  width: 55vw!important;
+  font-size: 3vw;
+}
+
+pre {
+  font-size: large;
 }
