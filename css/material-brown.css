@@ -8,11 +8,11 @@
 
 :root{
 --maincolor:#FFFFFF;
---primarycolor:#009688;
+--primarycolor:#795548; /* Brown 500 */
 --secondarycolor:#ba3925;
 --tertiarycolor: #186d7a;
---sidebarbackground:#004d40;
---linkcolor:#80cbc4;
+--sidebarbackground:#3E2723; /* Brown 900 */
+--linkcolor:#BCAAA4; /* Brown 200 */
 --linkcoloralternate:#f44336;
 --white:#FFFFFF;
 --black:#000000;
