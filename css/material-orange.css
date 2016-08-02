@@ -40,14 +40,14 @@ a:hover {
 }
 mark {
   color: var(--white);
-  background-color: #80cbc4;
+  background-color: var(--linkcolor);
 }
 
 /* Card styling */
 .sect1{border-bottom:1px solid grey;border-radius:8px;}
 
 /* Table styles */
-th{background-color: #80cbc4;color:#FFFFFF;}
+th{background-color: var(--linkcolor);color:#FFFFFF;}
 
 #toc.toc2{background-color:var(--sidebarbackground);color:white !important;}
 #toc.toc2.a{color:var(--white);}
