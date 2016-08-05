@@ -9,8 +9,8 @@
 :root{
 --maincolor:#FFFFFF;
 --primarycolor:#000000;
---secondarycolor:#DADADA;
---tertiarycolor: #FAFAFA;
+--secondarycolor:#000000;
+--tertiarycolor: #000000;
 --sidebarbackground:#CCC;
 --linkcolor:#000000;
 --linkcoloralternate:#f44336;
