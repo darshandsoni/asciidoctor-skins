@@ -1,0 +1,39 @@
+/* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
+
+@import 'https://fonts.googleapis.com/css?family=Space+Mono';
+@import "asciidoctor.css"; /* Default asciidoc style framework - important */
+
+/* CUSTOMISATIONS */
+/* Change the values in root for quick customisation. If you want even more fine grain... venture further. */
+
+:root{
+--maincolor:#FFFFFF;
+--primarycolor:#000000;
+--secondarycolor:#DADADA;
+--tertiarycolor: #FAFAFA;
+--sidebarbackground:#CCC;
+--linkcolor:#000000;
+--linkcoloralternate:#f44336;
+--white:#FFFFFF;
+--black:#000000;
+}
+
+/* Text styles */
+h1{color:var(--primarycolor) !important;}
+h2,h3,h4,h5,h6{color:var(--secondarycolor) !important;}
+.title{color:var(--tertiarycolor) !important; font-family:"Space Mono",sans-serif !important;font-style: normal !important; font-weight: normal !important;}
+p{font-family: "Space Mono",sans-serif !important}
+
+/* Table styles */
+th{font-family: "Space Mono",sans-serif !important}
+
+/* Responsiveness fixes */
+video {
+  max-width: 100%;
+}
+
+@media all and (max-width: 600px) {
+table {
+  width: 55vw!important;
+  font-size: 3vw;
+}
