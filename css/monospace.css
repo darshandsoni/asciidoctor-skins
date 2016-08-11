@@ -1,6 +1,6 @@
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
 
-@import 'https://fonts.googleapis.com/css?family=Space+Mono';
+@import 'https://fonts.googleapis.com/css?family=Source+Code+Pro';
 @import "asciidoctor.css"; /* Default asciidoc style framework - important */
 
 /* CUSTOMISATIONS */
@@ -18,14 +18,17 @@
 --black:#000000;
 }
 
-/* Text styles */
-h1{color:var(--primarycolor) !important;}
-h2,h3,h4,h5,h6{color:var(--secondarycolor) !important;}
-.title{color:var(--tertiarycolor) !important; font-family:"Space Mono",sans-serif !important;font-style: normal !important; font-weight: normal !important;}
-p{font-family: "Space Mono",sans-serif !important}
+body{font-family: "Source Code Pro",sans-serif;}
 
-/* Table styles */
-th{font-family: "Space Mono",sans-serif !important}
+/* Text styles */
+h1{color:var(--primarycolor) !important; font-family: "Source Code Pro",sans-serif;}
+h2,h3,h4,h5,h6{color:var(--secondarycolor) !important; font-family: "Source Code Pro",sans-serif;}
+.title{color:var(--tertiarycolor) !important; font-family:"Source Code Pro",sans-serif !important;font-style: normal !important; font-weight: normal !important;}
+
+/* Sidebar */
+#toctitle{font-family: "Source Code Pro",sans-serif;}
+.sectlevel1{font-family: "Source Code Pro",sans-serif!important;}
+.sectlevel2{font-family: "Source Code Pro",sans-serif!important;}
 
 /* Responsiveness fixes */
 video {

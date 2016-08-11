@@ -41,6 +41,7 @@ Available stylesheets:
 * [material red](http://darshandsoni.com/asciidoctor-skins/?material-red)
 * [material teal](http://darshandsoni.com/asciidoctor-skins/?material-teal)
 * [medium](http://darshandsoni.com/asciidoctor-skins/?medium)
+* [monospace](http://darshandsoni.com/asciidoctor-skins/?monospace)
 * [notebook](http://darshandsoni.com/asciidoctor-skins/?notebook)
 * [plain](http://darshandsoni.com/asciidoctor-skins/?plain)
 * [template](http://darshandsoni.com/asciidoctor-skins/?template)
