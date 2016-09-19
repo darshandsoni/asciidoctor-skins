@@ -22,6 +22,8 @@ To change the displayed stylesheet, just add the name of the CSS file after a `?
 
 ## Skins
 
+Note: To preview all of them, visit the [screenshots](https://darshandsoni.com/asciidoctor-skins/screenshots/) page.
+
 Available stylesheets:
 
 * [default asciidoctor stylesheet](http://darshandsoni.com/asciidoctor-skins/?asciidoctor)
