@@ -60,6 +60,7 @@ By contributing changes to this repository, you agree to license your contributi
 ## Credits
 
 * Demo based on [html5-test-page](https://github.com/cbracco/html5-test-page) by @cbracco
+* JS switcher based on [dropin-minimal-css](https://github.com/dohliam/dropin-minimal-css)
 
 ## License
 
