@@ -1,10 +1,9 @@
 var skins = ["asciidoctor", "clean", "dark", "fedora", "gazette", "italian-pop", "material-amber", "material-blue", "material-brown", "material-green", "material-grey", "material-orange", "material-pink", "material-purple", "material-red", "material-teal", "medium", "monospace", "notebook", "plain", "template", "tufte", "ubuntu"]
 
-add_defaults();
 add_switcher();
 
 function switch_css(css) {
-  document.getElementsByTagName("link")[0].href = "https://darshandsoni.github.io/asciidoctor-skins/css/" + css + ".css";
+  document.getElementsByTagName("link")[0].href = "https://darshandsoni.com/asciidoctor-skins/css/" + css + ".css";
 }
 
 function capitalize(s) {
@@ -29,18 +28,6 @@ function inline_switcher() {
   switcher.innerHTML = dropdown;
 }
 
-function add_defaults() {
-  defaults = ["https://darshandsoni.com/asciidoctor-skins/css/clean.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"];
-  for (i in defaults) {
-    head = document.getElementsByTagName('head')[0];
-    link = document.createElement('link');
-    link.rel = "stylesheet";
-    link.type = "text/css";
-    link.href = defaults[i];
-    head.appendChild(link);
-  }
-}
-
 function add_switcher() {
   stylesheet = document.getElementsByTagName("link")[0];
   if (stylesheet == undefined) {
@@ -48,7 +35,7 @@ function add_switcher() {
     link = document.createElement('link');
     link.rel="stylesheet";
     link.type="text/css";
-    link.href="https://darshandsoni.github.io/asciidoctor-skins/css/" + skins[0] + ".css";
+    link.href="https://darshandsoni.com/asciidoctor-skins/css/" + skins[0] + ".css";
     head.appendChild(link);
   }
 
