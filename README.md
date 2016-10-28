@@ -19,13 +19,11 @@ Asciidoctor comes with a very clean default stylesheet that saves users from spe
 You can preview all of the stylesheets in the [online demo](https://darshandsoni.com/asciidoctor-skins).
 
 To change the displayed stylesheet, just add the name of the CSS file after a `?` character at the end of the URL. For example, to preview the material stylsheet, just add `?material`.
-
 ## Custom preview
 
 You can now add a JS switcher to any document to quickly preview the contents rendered with any of the available asciidoctor skins. Just add the following line to the `<body>` section of any asciidoctor-generated HTML page:
 
-        <script src="switcher.js" type="text/javascript"></script>
-
+        <script src="https://darshandsoni.com/asciidoctor-skins/switcher.js" type="text/javascript"></script>
 
 ## Skins
 
