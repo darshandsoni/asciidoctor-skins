@@ -4,6 +4,11 @@ var inputstream = [{
   "tags": "",
   "description": "The default asciidoctor stylesheet"
 }, {
+  "name": "boot-cosmo",
+  "image": "png/boot-cosmo.png",
+  "tags": "bootswatch, blue, fullwidth, navbar",
+  "description": "Based on Bootswatch Cosmo: 'An ode to Metro'"
+}, {
   "name": "clean",
   "image": "png/clean.png",
   "tags": "",
