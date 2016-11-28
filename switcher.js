@@ -1,4 +1,4 @@
-var skins = ["asciidoctor", "boot-cosmo", "clean", "dark", "fedora", "gazette", "italian-pop", "material-amber", "material-blue", "material-brown", "material-green", "material-grey", "material-orange", "material-pink", "material-purple", "material-red", "material-teal", "medium", "monospace", "notebook", "plain", "template", "tufte", "ubuntu"]
+var skins = ["asciidoctor", "boot-cerulean", "boot-cosmo", "boot-cyborg", "boot-darkly", "boot-flatly", "boot-journal", "boot-lumen", "boot-paper", "boot-readable", "boot-slate", "boot-spacelab", "boot-superhero", "boot-yeti", "clean", "dark", "fedora", "gazette", "italian-pop", "material-amber", "material-blue", "material-brown", "material-green", "material-grey", "material-orange", "material-pink", "material-purple", "material-red", "material-teal", "medium", "monospace", "notebook", "plain", "template", "tufte", "ubuntu"]
 
 add_switcher();
 

@@ -6,9 +6,10 @@ obj = inputstream;
 for(i=0;i < obj.length; i++){
   name = obj[i].name;
   image = obj[i].image;
+  tags = obj[i].tags;
   description = obj[i].description;
 
-  content+= "<div class='searchable-item card'>" + "<h3>" + name + "</h3>" + "<br>" + "<a href='" + image + "'><img src='" + image + "'></a>" + "<br>" + description + "</div>";
+  content+= "<div class='searchable-item card'>" + "<h3>" + name + "</h3>" + "<br>" + "<a href='" + image + "'><img src='" + image + "'></a><div class='hiddentext'>" + tags + "</div><br>" + description + "</div>";
 }
 
 document.getElementById("content").innerHTML =  content
