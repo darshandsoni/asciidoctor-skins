@@ -1,13 +1,13 @@
-/* Based on Cosmo from Bootswatch (http://bootswatch.com/cosmo/) */
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700");
+/* Based on Superhero from Bootswatch (http://bootswatch.com/superhero/) */
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
 
 /* document body (contains all content) */
 body {
-  font-family: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.42857143;
-  color: #333333;
-  background-color: #ffffff;
+  color: #ebebeb;
+  background-color: #2b3e50;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -28,8 +28,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
-  font-weight: 300;
+  font-family: inherit;
+  font-weight: 400;
   line-height: 1.1;
   color: inherit;
 }
@@ -46,8 +46,8 @@ h6 {
   margin-bottom: 10.5px;
 }
 h1 {
-/*   font-size: 39px; */
   font-size: 4em;
+/*   font-size: 39px; */
 }
 h2 {
   font-size: 32px;
@@ -83,7 +83,7 @@ blockquote {
   padding: 10.5px 21px;
   margin: 0 0 21px;
   font-size: 18.75px;
-  border-left: 5px solid #e6e6e6;
+  border-left: 5px solid #4e5d6c;
 }
 blockquote p:last-child,
 blockquote ul:last-child,
@@ -94,7 +94,7 @@ blockquote ol:last-child {
 blockquote.pull-right {
   padding-right: 15px;
   padding-left: 0;
-  border-right: 5px solid #e6e6e6;
+  border-right: 5px solid #4e5d6c;
   border-left: 0;
   text-align: right;
 }
@@ -115,11 +115,6 @@ blockquote.pull-right .small:after {
   content: '\00A0 \2014';
 }
 
-/* the quotation mark itself (before the block) */
-.quoteblock blockquote::before {
-  color: blue;
-}
-
 /* blockquote attribution text */
 .attribution,
 .cite,
@@ -127,9 +122,8 @@ blockquote footer,
 blockquote small,
 blockquote .small {
   display: block;
-  font-style: normal;
   line-height: 1.42857143;
-  color: #999999;
+  color: #ebebeb;
 }
 .attribution:before,
 blockquote footer:before,
@@ -153,12 +147,12 @@ ol ol {
 
 /* links */
 a {
-  color: #2780e3;
+  color: #df691a;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #165ba8;
+  color: #df691a;
   text-decoration: underline;
 }
 a:focus {
@@ -171,7 +165,7 @@ hr {
   margin-top: 21px;
   margin-bottom: 21px;
   border: 0;
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid #596a7b;
 }
 
 /* table */
@@ -196,15 +190,15 @@ table th[class*="col-"] {
 
 /* table caption */
 caption {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  color: #999999;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: #4e5d6c;
   text-align: left;
 }
 
 /* table header row */
 thead {
-  border-bottom: 2px solid #dddddd;
+  border-bottom: 2px solid #4e5d6c;
 }
 
 /* table header cell */
@@ -216,12 +210,12 @@ th {
 /* table footer */
 tfoot {
   color: #807F81;
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #4e5d6c;
 }
 
 /* table cell */
 td {
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #4e5d6c;
 }
 td p {
   margin: auto;
@@ -230,7 +224,10 @@ td p {
 
 /* table body */
 tbody > tr:nth-of-type(odd) {
-  background-color: #f9f9f9;
+  background-color: #4e5d6c;
+}
+tbody > tr:hover {
+  background-color: #485563;
 }
 
 /* inline code */
@@ -238,7 +235,8 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: monospace, monospace;
+  font-size: 1em;
 }
 code {
   padding: 2px 4px;
@@ -295,8 +293,7 @@ img {
 #footer {
   margin-top: 22px;
   padding: 14px 16px;
-  color: white;
-  background-color: #222222;
+  background-color: #4e5d6c;
 }
 
 /* responsiveness fixes */
@@ -306,7 +303,7 @@ video {
 
 /* table of Contents sidebar */
 #toctitle {
-  color: white;
+  color: #2b3e50;
 }
 
 #toc ul {
@@ -322,16 +319,16 @@ video {
 }
 
 #toc a {
-  background-color: #2780e3;
+  color: #ebebeb;
+  background-color: #4e5d6c;
   float: left;
-  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 #toc li a:hover {
-  background-color: #1967be;
+  background-color: #485563;
   text-decoration: none;
 }
 

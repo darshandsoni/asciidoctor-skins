@@ -1,12 +1,12 @@
-/* Based on Cosmo from Bootswatch (http://bootswatch.com/cosmo/) */
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700");
+/* Based on Yeti from Bootswatch (http://bootswatch.com/yeti/) */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
 
 /* document body (contains all content) */
 body {
-  font-family: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
-  line-height: 1.42857143;
-  color: #333333;
+  line-height: 1.4;
+  color: #222222;
   background-color: #ffffff;
   margin-left: 10%;
   margin-right: 10%;
@@ -28,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.1;
   color: inherit;
@@ -46,8 +46,8 @@ h6 {
   margin-bottom: 10.5px;
 }
 h1 {
-/*   font-size: 39px; */
   font-size: 4em;
+/*   font-size: 39px; */
 }
 h2 {
   font-size: 32px;
@@ -71,7 +71,6 @@ h6 {
   margin: 0 0 10.5px;
 }
 p {
-/*   font-family: sans-serif; */
   margin: 0 0 10.5px;
 }
 
@@ -83,7 +82,7 @@ blockquote {
   padding: 10.5px 21px;
   margin: 0 0 21px;
   font-size: 18.75px;
-  border-left: 5px solid #e6e6e6;
+  border-left: 5px solid #dddddd;
 }
 blockquote p:last-child,
 blockquote ul:last-child,
@@ -94,7 +93,7 @@ blockquote ol:last-child {
 blockquote.pull-right {
   padding-right: 15px;
   padding-left: 0;
-  border-right: 5px solid #e6e6e6;
+  border-right: 5px solid #dddddd;
   border-left: 0;
   text-align: right;
 }
@@ -115,11 +114,6 @@ blockquote.pull-right .small:after {
   content: '\00A0 \2014';
 }
 
-/* the quotation mark itself (before the block) */
-.quoteblock blockquote::before {
-  color: blue;
-}
-
 /* blockquote attribution text */
 .attribution,
 .cite,
@@ -127,9 +121,8 @@ blockquote footer,
 blockquote small,
 blockquote .small {
   display: block;
-  font-style: normal;
-  line-height: 1.42857143;
-  color: #999999;
+  line-height: 1.4;
+  color: #6f6f6f;
 }
 .attribution:before,
 blockquote footer:before,
@@ -150,15 +143,14 @@ ol ol {
   margin-bottom: 0;
 }
 
-
 /* links */
 a {
-  color: #2780e3;
+  color: #008cba;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #165ba8;
+  color: #008cba;
   text-decoration: underline;
 }
 a:focus {
@@ -171,7 +163,7 @@ hr {
   margin-top: 21px;
   margin-bottom: 21px;
   border: 0;
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid #dddddd;
 }
 
 /* table */
@@ -232,13 +224,17 @@ td p {
 tbody > tr:nth-of-type(odd) {
   background-color: #f9f9f9;
 }
+tbody > tr:hover {
+  background-color: #f5f5f5;
+}
 
 /* inline code */
 code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: monospace, monospace;
+  font-size: 1em;
 }
 code {
   padding: 2px 4px;
@@ -268,7 +264,7 @@ pre {
   padding: 10px;
   margin: 0 0 10.5px;
   font-size: 14px;
-  line-height: 1.42857143;
+  line-height: 1.4;
   word-break: break-all;
   word-wrap: break-word;
   color: #333333;
@@ -295,8 +291,8 @@ img {
 #footer {
   margin-top: 22px;
   padding: 14px 16px;
-  color: white;
-  background-color: #222222;
+  color: #ffffff;
+  background-color: #333333;
 }
 
 /* responsiveness fixes */
@@ -306,7 +302,7 @@ video {
 
 /* table of Contents sidebar */
 #toctitle {
-  color: white;
+  color: #ffffff;
 }
 
 #toc ul {
@@ -322,7 +318,7 @@ video {
 }
 
 #toc a {
-  background-color: #2780e3;
+  background-color: #333333;
   float: left;
   color: white;
   text-align: center;
@@ -331,7 +327,7 @@ video {
 }
 
 #toc li a:hover {
-  background-color: #1967be;
+  background-color: #272727;
   text-decoration: none;
 }
 

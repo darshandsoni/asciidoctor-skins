@@ -1,13 +1,13 @@
-/* Based on Cosmo from Bootswatch (http://bootswatch.com/cosmo/) */
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700");
+/* Based on Darkly from Bootswatch (http://bootswatch.com/darkly/) */
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,400italic");
 
 /* document body (contains all content) */
 body {
-  font-family: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.42857143;
-  color: #333333;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #222222;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -28,8 +28,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
-  font-weight: 300;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   line-height: 1.1;
   color: inherit;
 }
@@ -83,7 +83,7 @@ blockquote {
   padding: 10.5px 21px;
   margin: 0 0 21px;
   font-size: 18.75px;
-  border-left: 5px solid #e6e6e6;
+  border-left: 5px solid #464545;
 }
 blockquote p:last-child,
 blockquote ul:last-child,
@@ -94,7 +94,7 @@ blockquote ol:last-child {
 blockquote.pull-right {
   padding-right: 15px;
   padding-left: 0;
-  border-right: 5px solid #e6e6e6;
+  border-right: 5px solid #464545;
   border-left: 0;
   text-align: right;
 }
@@ -113,11 +113,6 @@ blockquote.pull-right small:after,
 .blockquote-reverse .small:after,
 blockquote.pull-right .small:after {
   content: '\00A0 \2014';
-}
-
-/* the quotation mark itself (before the block) */
-.quoteblock blockquote::before {
-  color: blue;
 }
 
 /* blockquote attribution text */
@@ -153,12 +148,13 @@ ol ol {
 
 /* links */
 a {
-  color: #2780e3;
+  color: rgb(12, 227, 172);
+  background-color: transparent;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #165ba8;
+  color: #0ce3ac;
   text-decoration: underline;
 }
 a:focus {
@@ -171,7 +167,7 @@ hr {
   margin-top: 21px;
   margin-bottom: 21px;
   border: 0;
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid #464545;
 }
 
 /* table */
@@ -204,7 +200,7 @@ caption {
 
 /* table header row */
 thead {
-  border-bottom: 2px solid #dddddd;
+  border-bottom: 2px solid #464545;
 }
 
 /* table header cell */
@@ -216,12 +212,12 @@ th {
 /* table footer */
 tfoot {
   color: #807F81;
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #464545;
 }
 
 /* table cell */
 td {
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #464545;
 }
 td p {
   margin: auto;
@@ -230,7 +226,10 @@ td p {
 
 /* table body */
 tbody > tr:nth-of-type(odd) {
-  background-color: #f9f9f9;
+  background-color: #3d3d3d;
+}
+tbody > tr:hover {
+  background-color: #464545;
 }
 
 /* inline code */
@@ -243,9 +242,9 @@ samp {
 code {
   padding: 2px 4px;
   font-size: 90%;
-  color: #333333;
-  background-color: #f5f5f5;
-  border-radius: 0;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
 }
 kbd {
   padding: 2px 4px;
@@ -271,10 +270,10 @@ pre {
   line-height: 1.42857143;
   word-break: break-all;
   word-wrap: break-word;
-  color: #333333;
-  background-color: #f5f5f5;
+  color: #303030;
+  background-color: #ebebeb;
   border: 1px solid #cccccc;
-  border-radius: 0;
+  border-radius: 4px;
 }
 pre code {
   padding: 0;
@@ -296,7 +295,7 @@ img {
   margin-top: 22px;
   padding: 14px 16px;
   color: white;
-  background-color: #222222;
+  background-color: #375A7F;
 }
 
 /* responsiveness fixes */
@@ -306,7 +305,7 @@ video {
 
 /* table of Contents sidebar */
 #toctitle {
-  color: white;
+  color: #222222;
 }
 
 #toc ul {
@@ -322,7 +321,7 @@ video {
 }
 
 #toc a {
-  background-color: #2780e3;
+  background-color: rgb(55, 90, 127);
   float: left;
   color: white;
   text-align: center;
@@ -331,7 +330,7 @@ video {
 }
 
 #toc li a:hover {
-  background-color: #1967be;
+  background-color: rgb(40, 65, 91);
   text-decoration: none;
 }
 
