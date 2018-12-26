@@ -320,6 +320,7 @@ div.unbreakable{page-break-inside:avoid}
 .underline{text-decoration:underline}
 .overline{text-decoration:overline}
 .line-through{text-decoration:line-through}
+.small-caps{font-variant:small-caps}
 .aqua{color:#00bfbf}
 .aqua-background{background-color:#00fafa}
 .black{color:#000}
