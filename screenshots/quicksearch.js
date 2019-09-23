@@ -19,9 +19,15 @@ var qsRegex;
 
 // init Isotope
 var grid = document.querySelector('.grid');
-var iso = new Isotope( grid, {
-  itemSelector: '.searchable-item',
-  layoutMode: 'masonry'
+var iso;
+
+imagesLoaded( grid, function() {
+  // init Isotope after all images have loaded
+  iso = new Isotope( grid, {
+    itemSelector: '.searchable-item',
+    percentPosition: true,
+    layoutMode: 'masonry'
+  });
 });
 
 // use value of search field to filter
