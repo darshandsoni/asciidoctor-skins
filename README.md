@@ -6,11 +6,9 @@ Asciidoctor comes with a very clean default stylesheet that saves users from spe
 
 ## Usage
 
-1. If you have no idea what asciidoctor is, check out their fabulous project [here](http://asciidoctor.org/).
+1. If you have no idea what asciidoctor is, check out their fabulous project [here](https://asciidoctor.org/).
 2. Once you've got an .adoc document going, download the asciidoctor.css and a css skin file of your choice into your project directory.
-3. In your adoc file, add the following line:
-`:stylesheet: Your_Chosen_Stylesheet.css`
-
+3. In your adoc file, add the following line: `:stylesheet: Your_Chosen_Stylesheet.css`
 4. Render your html file by running `asciidoctor sample.adoc`
 5. Et voilà! Your beautiful web page based document is rendered.
 
