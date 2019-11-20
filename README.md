@@ -48,20 +48,22 @@ Note: the [template](https://darshandsoni.com/asciidoctor-skins/?template) skin 
 
 ### Collections
 
-Material skins, by @darshandsoni:
+**Adoc skins**, based on the official [Asciidoctor themes site](https://themes.asciidoctor.org/preview/) by the Asciidoctor project ([MIT](https://github.com/asciidoctor/asciidoctor-stylesheet-factory/blob/master/LICENSE)):
 
-* [material amber](https://darshandsoni.com/asciidoctor-skins/?material-amber)
-* [material blue](https://darshandsoni.com/asciidoctor-skins/?material-blue)
-* [material brown](https://darshandsoni.com/asciidoctor-skins/?material-brown)
-* [material green](https://darshandsoni.com/asciidoctor-skins/?material-green)
-* [material grey](https://darshandsoni.com/asciidoctor-skins/?material-grey)
-* [material orange](https://darshandsoni.com/asciidoctor-skins/?material-orange)
-* [material pink](https://darshandsoni.com/asciidoctor-skins/?material-pink)
-* [material purple](https://darshandsoni.com/asciidoctor-skins/?material-purple)
-* [material red](https://darshandsoni.com/asciidoctor-skins/?material-red)
-* [material teal](https://darshandsoni.com/asciidoctor-skins/?material-teal)
+* [Colony](https://darshandsoni.com/asciidoctor-skins/?adoc-colony.css)
+* [Lime](https://darshandsoni.com/asciidoctor-skins/?adoc-foundation-lime.css)
+* [Potion](https://darshandsoni.com/asciidoctor-skins/?adoc-foundation-potion.css)
+* [Foundation](https://darshandsoni.com/asciidoctor-skins/?adoc-foundation.css)
+* [Github](https://darshandsoni.com/asciidoctor-skins/?adoc-github.css)
+* [Golo](https://darshandsoni.com/asciidoctor-skins/?adoc-golo.css)
+* [Iconic](https://darshandsoni.com/asciidoctor-skins/?adoc-iconic.css)
+* [Maker](https://darshandsoni.com/asciidoctor-skins/?adoc-maker.css)
+* [Readthedocs](https://darshandsoni.com/asciidoctor-skins/?adoc-readthedocs.css)
+* [Riak](https://darshandsoni.com/asciidoctor-skins/?adoc-riak.css)
+* [Panda](https://darshandsoni.com/asciidoctor-skins/?adoc-rocket-panda.css)
+* [Rubygems](https://darshandsoni.com/asciidoctor-skins/?adoc-rubygems.css)
 
-Bootswatch skins, based on [bootswatch](https://github.com/thomaspark/bootswatch/) by @thomaspark ([MIT](https://github.com/thomaspark/bootswatch/blob/gh-pages/LICENSE))
+**Bootswatch skins**, based on [bootswatch](https://github.com/thomaspark/bootswatch/) by @thomaspark ([MIT](https://github.com/thomaspark/bootswatch/blob/gh-pages/LICENSE)):
 
 * [Cerulean](https://bootswatch.com/cerulean/)
 * [Cosmo](https://bootswatch.com/cosmo/)
@@ -77,6 +79,19 @@ Bootswatch skins, based on [bootswatch](https://github.com/thomaspark/bootswatch
 * [Spacelab](https://bootswatch.com/spacelab/)
 * [Superhero](https://bootswatch.com/superhero/)
 * [Yeti](https://bootswatch.com/yeti/)
+
+**Material skins**, by @darshandsoni:
+
+* [material amber](https://darshandsoni.com/asciidoctor-skins/?material-amber)
+* [material blue](https://darshandsoni.com/asciidoctor-skins/?material-blue)
+* [material brown](https://darshandsoni.com/asciidoctor-skins/?material-brown)
+* [material green](https://darshandsoni.com/asciidoctor-skins/?material-green)
+* [material grey](https://darshandsoni.com/asciidoctor-skins/?material-grey)
+* [material orange](https://darshandsoni.com/asciidoctor-skins/?material-orange)
+* [material pink](https://darshandsoni.com/asciidoctor-skins/?material-pink)
+* [material purple](https://darshandsoni.com/asciidoctor-skins/?material-purple)
+* [material red](https://darshandsoni.com/asciidoctor-skins/?material-red)
+* [material teal](https://darshandsoni.com/asciidoctor-skins/?material-teal)
 
 ## Bookmarklet
 
