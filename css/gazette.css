@@ -1,6 +1,6 @@
-/* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
+/* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
 
-@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro|UnifrakturMaguntia|Source+Sans+Pro);
+@import url(//fonts.googleapis.com/css?family=Source+Serif+Pro|UnifrakturMaguntia|Source+Sans+Pro);
 @import "asciidoctor.css"; /* Default asciidoc style framework - important */
 
 /* CUSTOMISATIONS */

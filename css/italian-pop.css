@@ -1,6 +1,6 @@
-/* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
+/* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
 
-@import url(https://fonts.googleapis.com/css?family=Galada|Lato);
+@import url(//fonts.googleapis.com/css?family=Galada|Lato);
 @import "asciidoctor.css"; /* Default asciidoc style framework - important */
 
 /* CUSTOMISATIONS */
