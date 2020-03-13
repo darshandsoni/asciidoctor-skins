@@ -1,439 +1,814 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
-    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Asciidoctor 1.5.4">
-    <title>Sample title</title>
+    <meta name="generator" content="Asciidoctor 2.0.10">
+    <meta name="author" content="Firstname Lastname">
+    <title>AsciiDoc Article Title</title>
     <link rel="stylesheet" href="css/clean.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript">
-      function quick_api() {
-        var geturl = location.href;
-        if (/\?/.test(geturl) == true) {
-          css = /\?([a-z\-_0-9]+)/.exec(geturl)[1];
-          document.getElementsByTagName("link")[0].href = "css/" + css + ".css";
-        }
-      }
-      quick_api();
+        function quick_api() {
+            var geturl = location.href;
+            if (/\?/.test(geturl) == true) {
+              css = /\?([a-z\-_0-9]+)/.exec(geturl)[1];
+              document.getElementsByTagName("link")[0].href = "css/" + css + ".css";
+            }
+          }
+          quick_api();
     </script>
-  </head>
-  <body class="article toc2 toc-left">
+</head>
+
+<body class="article toc2 toc-left">
     <div id="header">
-      <h1>Sample title</h1>
-      <div id="toc" class="toc2">
-        <div id="toctitle">Table of Contents</div>
-        <ul class="sectlevel1">
-          <li><a href="#_text">Text</a>
-            <ul class="sectlevel2">
-              <li><a href="#_headings">Headings</a>
-              </li>
-              <li><a href="#_paragraphs">Paragraphs</a>
-              </li>
-              <li><a href="#_blockquotes">Blockquotes</a>
-              </li>
-              <li><a href="#_lists">Lists</a>
-              </li>
-              <li><a href="#_inline_elements">Inline elements</a>
-              </li>
+        <h1>AsciiDoc Article Title</h1>
+        <div class="details">
+            <span id="author" class="author">Firstname Lastname</span><br>
+            <span id="email" class="email"><a href="mailto:author@asciidoctor.org">author@asciidoctor.org</a></span><br>
+            <span id="revnumber">version 1.0,</span>
+            <span id="revdate">July 29, 2014, Asciidoctor 1.5 article template</span>
+        </div>
+        <div id="toc" class="toc2">
+            <div id="toctitle">Table of Contents</div>
+            <ul class="sectlevel1">
+                <li><a href="#_text_formatting">Text formatting</a>
+                    <ul class="sectlevel2">
+                        <li><a href="#_links">Links</a></li>
+                        <li><a href="#_replacements">Replacements</a></li>
+                        <li><a href="#_math">Math</a></li>
+                    </ul>
+                </li>
+                <li><a href="#_images">Images</a></li>
+                <li><a href="#_footnotes">Footnotes</a></li>
+                <li><a href="#_headings">Headings</a>
+                    <ul class="sectlevel2">
+                        <li><a href="#_second_level_heading">Second level heading</a>
+                            <ul class="sectlevel3">
+                                <li><a href="#_third_level_heading">Third level heading</a>
+                                    <ul class="sectlevel4">
+                                        <li><a href="#_fourth_level_heading">Fourth level heading</a>
+                                            <ul class="sectlevel5">
+                                                <li><a href="#_fifth_level_heading">Fifth level heading</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#_lists">Lists</a>
+                    <ul class="sectlevel2">
+                        <li><a href="#_unordered_lists">Unordered lists</a></li>
+                        <li><a href="#_ordered_lists">Ordered lists</a></li>
+                        <li><a href="#_labelled_lists">Labelled lists</a></li>
+                        <li><a href="#_mixed_lists">Mixed lists</a></li>
+                    </ul>
+                </li>
+                <li><a href="#_blocks">Blocks</a></li>
+                <li><a href="#_tables">Tables</a></li>
+                <li><a href="#_quotes">Quotes</a></li>
+                <li><a href="#_admonitions">Admonitions</a>
+                    <ul class="sectlevel2">
+                        <li><a href="#_admonition_blocks">Admonition blocks</a></li>
+                    </ul>
+                </li>
             </ul>
-          </li>
-          <li><a href="#_horizontal_rules">Horizontal rules</a>
-          </li>
-          <li><a href="#_tabular_data">Tabular data</a>
-          </li>
-          <li><a href="#_code">Code</a>
-          </li>
-          <li><a href="#_form_elements">Form elements</a>
-            <ul class="sectlevel2">
-              <li><a href="#_checkboxes">Checkboxes</a>
-              </li>
-            </ul>
-          </li>
-          <li><a href="#_embedded_content">Embedded content</a>
-            <ul class="sectlevel2">
-              <li><a href="#_images">Images</a>
-              </li>
-              <li><a href="#_audio">Audio</a>
-              </li>
-              <li><a href="#_video">Video</a>
-              </li>
-            </ul>
-          </li>
-          <li><a href="#_bookmarklet">Bookmarklet</a>
-        </ul>
-      </div>
+        </div>
     </div>
     <div id="content">
-      <div class="sect1">
-        <h2 id="_text">Text</h2>
-        <div class="sectionbody">
-          <div class="sect2">
-            <h3 id="_headings">Headings</h3>
-            <h1 id="_heading_1" class="discrete">Heading 1</h1>
-            <h2 id="_heading_2" class="discrete">Heading 2</h2>
-            <h3 id="_heading_3" class="discrete">Heading 3</h3>
-            <h4 id="_heading_4" class="discrete">Heading 4</h4>
-            <h5 id="_heading_5" class="discrete">Heading 5</h5>
-            <h6 id="_heading_6" class="discrete">Heading 6</h6>
-          </div>
-          <div class="sect2">
-            <h3 id="_paragraphs">Paragraphs</h3>
-            <div class="paragraph">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra viverra nisl, vel maximus turpis ornare a. Ut scelerisque lectus sed odio dictum scelerisque vitae quis nisi. Nulla facilisi. Phasellus vehicula convallis nisl, id suscipit dui semper at. In eu iaculis lorem. In vehicula sed mauris et suscipit. Vivamus pellentesque non massa sit amet ornare. Integer placerat est vitae nisl molestie, eget rhoncus erat vulputate. Proin ornare massa eget bibendum faucibus.</p>
+        <div id="preamble">
+            <div class="sectionbody">
+                <div class="paragraph">
+                    <p>Content entered directly below the header but before the first section heading is called the preamble.</p>
+                </div>
             </div>
-          </div>
-          <div class="sect2">
-            <h3 id="_blockquotes">Blockquotes</h3>
-            <div class="quoteblock">
-              <blockquote>
-                Etiam porttitor egestas elit, at venenatis neque accumsan eu. Nulla viverra odio nisi, quis commodo tellus tristique non. Proin ac ante at orci euismod eleifend. Quisque nisi sapien, dapibus in venenatis sit amet, posuere non purus. In sit amet metus erat. Pellentesque nec neque eleifend, luctus ipsum at, ullamcorper nunc. Pellentesque sagittis, dolor eu bibendum lacinia, orci ex bibendum risus, at tincidunt augue lacus eleifend diam. Nulla facilisis velit ut est auctor sollicitudin. Morbi eget lectus a lacus maximus molestie in ut lorem.
-              </blockquote>
-              <div class="attribution">
-                &#8212; Said no one
-                <br>
-                <cite>ever.</cite>
-              </div>
-            </div>
-          </div>
-          <div class="sect2">
-            <h3 id="_lists">Lists</h3>
-            <div class="sect3">
-              <h4 id="_ordered_list">Ordered List</h4>
-              <div class="olist arabic">
-                <ol class="arabic">
-                  <li>
-                    <p>List item 1</p>
-                  </li>
-                  <li>
-                    <p>List item 2</p>
-                    <div class="olist loweralpha">
-                      <ol class="loweralpha" type="a">
-                        <li>
-                          <p>Indented level 2</p>
-                          <div class="olist lowerroman">
-                            <ol class="lowerroman" type="i">
-                              <li>
-                                <p>Indented level 3</p>
-                              </li>
-                            </ol>
-                          </div>
-                        </li>
-                      </ol>
+        </div>
+        <div class="sect1">
+            <h2 id="_text_formatting">Text formatting</h2>
+            <div class="sectionbody">
+                <div class="paragraph">
+                    <p>This is a paragraph of regular text.</p>
+                </div>
+                <div class="paragraph">
+                    <p>This is a paragraph with a <strong>bold</strong> word and an <em>italicized</em> word. <strong><em>Bold italic</em></strong> is also possible.</p>
+                </div>
+                <div class="paragraph">
+                    <p>Words can also have internal b<strong>ol</strong>d and it<em>ali</em>c formatting.</p>
+                </div>
+                <div class="paragraph">
+                    <p>Some constrained <code>monospace text</code>, and some <code>u</code>nconstrained <code>m</code>onospace <code>t</code>ext.</p>
+                </div>
+                <div class="paragraph">
+                    <p>Some Superscript<sup>®</sup> text and some subscript text: H<sub>2</sub>O.</p>
+                </div>
+                <div class="sect2">
+                    <h3 id="_links">Links</h3>
+                    <div class="paragraph">
+                        <p>The text at the end of this sentence is cross referenced to <a href="#_third_level_heading">the third level heading</a></p>
                     </div>
-                  </li>
-                  <li>
-                    <p>List item 3</p>
-                  </li>
-                </ol>
-              </div>
-            </div>
-            <div class="sect3">
-              <h4 id="_unordered_list">Unordered List</h4>
-              <div class="ulist">
-                <ul>
-                  <li>
-                    <p>List item 1</p>
-                  </li>
-                  <li>
-                    <p>List item 2</p>
+                    <div class="paragraph">
+                        <p>This is a link to the <a href="https://asciidoctor.org/docs/user-manual/" target="_blank" rel="noopener">Asciidoctor User Manual</a>.</p>
+                    </div>
+                    <div class="paragraph">
+                        <p>This is an attribute reference <a href="https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/" target="_blank" rel="noopener">which links this text to the Asciidoctor Quick Reference Guide</a>.</p>
+                    </div>
+                </div>
+                <div class="sect2">
+                    <h3 id="_replacements">Replacements</h3>
                     <div class="ulist">
-                      <ul>
-                        <li>
-                          <p>Indented level 2</p>
-                          <div class="ulist">
-                            <ul>
-                              <li>
-                                <p>Indented level 3</p>
-                                <div class="ulist">
-                                  <ul>
-                                    <li>
-                                      <p>Indented level 4</p>
-                                      <div class="ulist">
-                                        <ul>
-                                          <li>
-                                            <p>Indented level 5</p>
-                                          </li>
-                                        </ul>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                      </ul>
+                        <ul>
+                            <li>
+                                <p>copyright: &#169;</p>
+                            </li>
+                            <li>
+                                <p>registered trademark: &#174;</p>
+                            </li>
+                            <li>
+                                <p>trademark: &#8482;</p>
+                            </li>
+                            <li>
+                                <p>em dash (between words):&#8201;&#8212;&#8201;</p>
+                            </li>
+                            <li>
+                                <p>ellipses: &#8230;&#8203;</p>
+                            </li>
+                            <li>
+                                <p>arrows: &#8594; &#8658; &#8592; &#8656;</p>
+                            </li>
+                            <li>
+                                <p>apostrophe: Sam&#8217;s</p>
+                            </li>
+                            <li>
+                                <p>XML entity (e.g., dagger): &#8224;</p>
+                            </li>
+                        </ul>
                     </div>
-                  </li>
-                  <li>
-                    <p>List item 3</p>
-                  </li>
-                </ul>
-              </div>
+                </div>
+                <div class="sect2">
+                    <h3 id="_math">Math</h3>
+                    <div class="paragraph">
+                        <p>Find the area under the graph of \$y = x^2\$ between \$x= 1\$ and \$x = 2\$.</p>
+                    </div>
+                    <div class="paragraph">
+                        <p>\[ \int_1^2 x^2 dx = \left[ \frac{x^3}{3} \right]_1^2 = \frac{2^3}{3} - \frac{1^3}{3} = \frac{7}{3} \]</p>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="sect2">
-            <h3 id="_inline_elements">Inline elements</h3>
-            <div class="ulist">
-              <ul>
-                <li>
-                  <p><a href="https://darshandsoni.com/asciidoctor-skins/">This is a text link</a>.</p>
-                </li>
-                <li>
-                  <p><strong>This is bold (strong) text.</strong>
-                  </p>
-                </li>
-                <li>
-                  <p><em>This is italic (emphasis) text.</em>
-                  </p>
-                </li>
-                <li>
-                  <p><u>This is underlined text</u>.</p>
-                </li>
-                <li>
-                  <p><del>This text is deleted</del> and <ins>This text is inserted</ins>.</p>
-                </li>
-                <li>
-                  <p><s>This text has a strikethrough</s>.</p>
-                </li>
-                <li>
-                  <p>Superscript<sup>®</sup>.</p>
-                </li>
-                <li>
-                  <p>Subscript for things like H<sub>2</sub>O.</p>
-                </li>
-                <li>
-                  <p><small>This small text is small for for fine print, etc</small>.</p>
-                </li>
-                <li>
-                  <p>The
-                    <mark>mark element</mark> indicates a highlight.</p>
-                </li>
-              </ul>
+        </div>
+        <div class="sect1">
+            <h2 id="_images">Images</h2>
+            <div class="sectionbody">
+                <div class="imageblock">
+                    <div class="content">
+                        <img src="resources/picture.jpg" alt="This is the image alt text.">
+                    </div>
+                    <div class="title">Figure 1. Image caption</div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="sect1">
-        <h2 id="_horizontal_rules">Horizontal rules</h2>
-        <div class="sectionbody">
-          <hr>
-        </div>
-      </div>
-      <div class="sect1">
-        <h2 id="_tabular_data">Tabular data</h2>
-        <div class="sectionbody">
-          <table class="tableblock frame-all grid-all spread">
-            <caption class="title">Table Caption</caption>
-            <colgroup>
-              <col style="width: 20%;">
-                <col style="width: 20%;">
-                  <col style="width: 20%;">
-                    <col style="width: 20%;">
-                      <col style="width: 20%;">
-            </colgroup>
-            <thead>
-              <tr>
-                <th class="tableblock halign-left valign-top">Table Heading 1</th>
-                <th class="tableblock halign-left valign-top">Table Heading 2</th>
-                <th class="tableblock halign-left valign-top">Table Heading 3</th>
-                <th class="tableblock halign-left valign-top">Table Heading 4</th>
-                <th class="tableblock halign-left valign-top">Table Heading 5</th>
-              </tr>
-            </thead>
-            <tfoot>
-              <tr>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Footer 1</p>
-                </td>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Footer 2</p>
-                </td>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Footer 3</p>
-                </td>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Footer 4</p>
-                </td>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Footer 5</p>
-                </td>
-              </tr>
-            </tfoot>
-            <tbody>
-              <tr>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Cell 1</p>
-                </td>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Cell 2</p>
-                </td>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Cell 3</p>
-                </td>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Cell 4</p>
-                </td>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Cell 5</p>
-                </td>
-              </tr>
-              <tr>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Cell 1</p>
-                </td>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Cell 2</p>
-                </td>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Cell 3</p>
-                </td>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Cell 4</p>
-                </td>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Cell 5</p>
-                </td>
-              </tr>
-              <tr>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Cell 1</p>
-                </td>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Cell 2</p>
-                </td>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Cell 3</p>
-                </td>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Cell 4</p>
-                </td>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Cell 5</p>
-                </td>
-              </tr>
-              <tr>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Cell 1</p>
-                </td>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Cell 2</p>
-                </td>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Cell 3</p>
-                </td>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Cell 4</p>
-                </td>
-                <td class="tableblock halign-left valign-top">
-                  <p class="tableblock">Table Cell 5</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <div class="sect1">
-        <h2 id="_code">Code</h2>
-        <div class="sectionbody">
-          <div class="ulist">
-            <ul>
-              <li>
-                <p>Inline code: <code>&lt;div&gt;code&lt;/div&gt;</code>
-                </p>
-              </li>
-              <li>
-                <p>Pre-formatted text:</p>
-              </li>
-            </ul>
-          </div>
-          <div class="literalblock">
-            <div class="content">
-              <pre>P R E F O R M A T T E D T E X T
-! " # $ % &amp; ' ( ) * + , - . /
-0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ?
-@ A B C D E F G H I J K L M N O
-P Q R S T U V W X Y Z [ \ ] ^ _
-` a b c d e f g h i j k l m n o
-p q r s t u v w x y z { | } ~</pre>
+        <div class="sect1">
+            <h2 id="_footnotes">Footnotes</h2>
+            <div class="sectionbody">
+                <div class="paragraph">
+                    <p>This is another paragraph.<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="sect1">
-        <h2 id="_form_elements">Form elements</h2>
-        <div class="sectionbody">
-          <div class="sect2">
-            <h3 id="_checkboxes">Checkboxes</h3>
-            <div class="ulist checklist">
-              <ul class="checklist">
-                <li>
-                  <p><i class="fa fa-check-square-o"></i> Choice A (checked)</p>
-                </li>
-                <li>
-                  <p><i class="fa fa-check-square-o"></i> Choice B (also checked)</p>
-                </li>
-                <li>
-                  <p><i class="fa fa-square-o"></i> Choice C (not checked)</p>
-                </li>
-                <li>
-                  <p>normal list item</p>
-                </li>
-              </ul>
+        <div class="sect1">
+            <h2 id="_headings">Headings</h2>
+            <div class="sectionbody">
+                <div class="sect2">
+                    <h3 id="_second_level_heading">Second level heading</h3>
+                    <div class="sect3">
+                        <h4 id="_third_level_heading">Third level heading</h4>
+                        <div class="sect4">
+                            <h5 id="_fourth_level_heading">Fourth level heading</h5>
+                            <div class="sect5">
+                                <h6 id="_fifth_level_heading">Fifth level heading</h6>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="sect1">
-        <h2 id="_embedded_content">Embedded content</h2>
-        <div class="sectionbody">
-          <div class="sect2">
-            <h3 id="_images">Images</h3>
-            <div class="imageblock">
-              <div class="content">
-                <img src="resources/picture.jpg" alt="picture">
-              </div>
-              <div class="title">Figure 1. Here is a caption for this image.</div>
+        <div class="sect1">
+            <h2 id="_lists">Lists</h2>
+            <div class="sectionbody">
+                <div class="sect2">
+                    <h3 id="_unordered_lists">Unordered lists</h3>
+                    <div class="ulist">
+                        <div class="title">Unordered list title</div>
+                        <ul>
+                            <li>
+                                <p>list item 1</p>
+                                <div class="ulist">
+                                    <ul>
+                                        <li>
+                                            <p>nested list item</p>
+                                            <div class="ulist">
+                                                <ul>
+                                                    <li>
+                                                        <p>nested nested list item 1</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>nested nested list item 2</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <p>list item 2</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sect2">
+                    <h3 id="_ordered_lists">Ordered lists</h3>
+                    <div class="olist arabic">
+                        <div class="title">Ordered list title</div>
+                        <ol class="arabic">
+                            <li>
+                                <p>ordered list item</p>
+                                <div class="olist loweralpha">
+                                    <ol class="loweralpha" type="a">
+                                        <li>
+                                            <p>nested ordered list item</p>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </li>
+                            <li>
+                                <p>ordered list item</p>
+                                <div class="olist loweralpha">
+                                    <ol class="loweralpha" type="a">
+                                        <li>
+                                            <p>second level list item</p>
+                                            <div class="olist lowerroman">
+                                                <ol class="lowerroman" type="i">
+                                                    <li>
+                                                        <p>third level list item</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>another third level list item</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>a final third level list item</p>
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p>another second level list item</p>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="paragraph">
+                        <p>You can override the number scheme for any level by setting its style (the first positional entry in a block attribute list). You can also set the starting number using the start attribute:</p>
+                    </div>
+                    <div class="olist lowerroman">
+                        <ol class="lowerroman" type="i" start="5">
+                            <li>
+                                <p>Five</p>
+                            </li>
+                            <li>
+                                <p>Six</p>
+                                <div class="olist loweralpha">
+                                    <ol class="loweralpha" type="a">
+                                        <li>
+                                            <p>a</p>
+                                        </li>
+                                        <li>
+                                            <p>b</p>
+                                        </li>
+                                        <li>
+                                            <p>c</p>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Seven</p>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="sect2">
+                    <h3 id="_labelled_lists">Labelled lists</h3>
+                    <div class="paragraph">
+                        <p>Here&#8217;s an example of a labeled list that identifies parts of a computer:</p>
+                    </div>
+                    <div class="dlist">
+                        <dl>
+                            <dt class="hdlist1">CPU</dt>
+                            <dd>
+                                <p>The brain of the computer.</p>
+                            </dd>
+                            <dt class="hdlist1">Hard drive</dt>
+                            <dd>
+                                <p>Permanent storage for operating system and/or user files.</p>
+                            </dd>
+                            <dt class="hdlist1">RAM</dt>
+                            <dd>
+                                <p>Temporarily stores information the CPU uses during operation.</p>
+                            </dd>
+                            <dt class="hdlist1">Keyboard</dt>
+                            <dd>
+                                <p>Used to enter text or control items on the screen.</p>
+                            </dd>
+                            <dt class="hdlist1">Mouse</dt>
+                            <dd>
+                                <p>Used to point to and select items on your computer screen.</p>
+                            </dd>
+                            <dt class="hdlist1">Monitor</dt>
+                            <dd>
+                                <p>Displays information in visual form using text and graphics.</p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="hdlist">
+                        <div class="title">A horizontal labelled list</div>
+                        <table>
+                            <tr>
+                                <td class="hdlist1">
+                                    CPU
+                                </td>
+                                <td class="hdlist2">
+                                    <p>The brain of the computer.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="hdlist1">
+                                    Hard drive
+                                </td>
+                                <td class="hdlist2">
+                                    <p>Permanent storage for operating system and/or user files.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="hdlist1">
+                                    RAM
+                                </td>
+                                <td class="hdlist2">
+                                    <p>Temporarily stores information the CPU uses during operation.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="dlist">
+                        <div class="title">Labelled list with bullets</div>
+                        <dl>
+                            <dt class="hdlist1">Diary</dt>
+                            <dd>
+                                <div class="ulist">
+                                    <ul>
+                                        <li>
+                                            <p>Milk</p>
+                                        </li>
+                                        <li>
+                                            <p>Eggs</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </dd>
+                            <dt class="hdlist1">Bakery</dt>
+                            <dd>
+                                <div class="ulist">
+                                    <ul>
+                                        <li>
+                                            <p>Bread</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </dd>
+                            <dt class="hdlist1">Produce</dt>
+                            <dd>
+                                <div class="ulist">
+                                    <ul>
+                                        <li>
+                                            <p>Bananas</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="sect2">
+                    <h3 id="_mixed_lists">Mixed lists</h3>
+                    <div class="olist arabic">
+                        <div class="title">Mixed unordered and ordered lists</div>
+                        <ol class="arabic">
+                            <li>
+                                <p>Linux</p>
+                                <div class="ulist">
+                                    <ul>
+                                        <li>
+                                            <p>Fedora</p>
+                                        </li>
+                                        <li>
+                                            <p>Ubuntu</p>
+                                        </li>
+                                        <li>
+                                            <p>Slackware</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <p>BSD</p>
+                                <div class="ulist">
+                                    <ul>
+                                        <li>
+                                            <p>FreeBSD</p>
+                                        </li>
+                                        <li>
+                                            <p>NetBSD</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="paragraph">
+                        <p>Here’s a list that mixes all three types of lists:</p>
+                    </div>
+                    <div class="dlist">
+                        <dl>
+                            <dt class="hdlist1">Operating Systems</dt>
+                            <dd>
+                                <div class="olist arabic">
+                                    <ol class="arabic">
+                                        <li>
+                                            <p>Linux</p>
+                                            <div class="ulist">
+                                                <ul>
+                                                    <li>
+                                                        <p>Fedora</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Ubuntu</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Slackware</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p>BSD</p>
+                                            <div class="ulist">
+                                                <ul>
+                                                    <li>
+                                                        <p>FreeBSD</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>NetBSD</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </dd>
+                            <dt class="hdlist1">Cloud Providers</dt>
+                            <dd>
+                                <div class="olist arabic">
+                                    <ol class="arabic">
+                                        <li>
+                                            <p>PaaS</p>
+                                            <div class="ulist">
+                                                <ul>
+                                                    <li>
+                                                        <p>OpenShift</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>CloudBees</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p>IaaS</p>
+                                            <div class="ulist">
+                                                <ul>
+                                                    <li>
+                                                        <p>Amazon EC2</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Rackspace</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="sect2">
-            <h3 id="_audio">Audio</h3>
-            <div class="paragraph">
-              <p>
-                <audio controls>
-                  <source src="https://ia802702.us.archive.org/7/items/Best100InstrumentalSongs/001-RichardClayderman-BalladePourAdeline.mp3">
-                </audio>
-              </p>
-            </div>
-          </div>
-          <div class="sect2">
-            <h3 id="_video">Video</h3>
-            <div class="videoblock">
-              <div class="content">
-                <video src="https://github.com/benhosmer/HTML5-Test-Videos/blob/master/big_buck_bunny.mp4?raw=true" controls>
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="sect1">
-        <h2 id="_bookmarklet">Bookmarklet</h2>
-        <div class="sectionbody">
-          <div class="paragraph">
-            <p>You can add a bookmarklet to your browser to let you preview any Asciidoctor-generated document with different themes. Just drag the following link to your browser's bookmark bar: <p><a href="javascript:(function()%7Bvar%20body%20%3D%20document.getElementsByTagName('body')%5B0%5D%3Bscript%20%3D%20document.createElement('script')%3Bscript.type%3D%20'text%2Fjavascript'%3Bscript.src%3D%20'https%3A%2F%2Fdarshandsoni.com%2Fasciidoctor-skins%2Fswitcher.js'%3Bbody.appendChild(script)%7D)()">asciidoctor-skins bookmarklet</a></p>
-          </div>
+        <div class="sect1">
+            <h2 id="_blocks">Blocks</h2>
+            <div class="sectionbody">
+                <div class="exampleblock">
+                    <div class="title">Example 1. Example block title</div>
+                    <div class="content">
+                        <div class="paragraph">
+                            <p>Content in an example block is subject to normal substitutions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebarblock">
+                    <div class="content">
+                        <div class="title">Sidebar title</div>
+                        <div class="paragraph">
+                            <p>Sidebars contain aside text and are subject to normal substitutions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="id-for-listing-block" class="listingblock">
+                    <div class="title">Listing block title</div>
+                    <div class="content">
+                        <pre>Content in a listing block is subject to verbatim substitutions.
+    Listing block content is commonly used to preserve code input.</pre>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+        <div class="sect1">
+            <h2 id="_tables">Tables</h2>
+            <div class="sectionbody">
+                <table class="tableblock frame-all grid-all stretch">
+                    <caption class="title">Table 1. A simple table with a title</caption>
+                    <colgroup>
+                        <col style="width: 50%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th class="tableblock halign-left valign-top">Column heading 1</th>
+                            <th class="tableblock halign-left valign-top">Column heading 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tableblock halign-left valign-top">
+                                <p class="tableblock">Column 1, row 1</p>
+                            </td>
+                            <td class="tableblock halign-left valign-top">
+                                <p class="tableblock">Column 2, row 1</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tableblock halign-left valign-top">
+                                <p class="tableblock">Column 1, row 2</p>
+                            </td>
+                            <td class="tableblock halign-left valign-top">
+                                <p class="tableblock">Column 2, row 2</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="exampleblock">
+                    <div class="content">
+                        <table class="tableblock frame-all grid-all stretch">
+                            <caption class="title">Table 2. A table containing another nested table</caption>
+                            <colgroup>
+                                <col style="width: 33.3333%;">
+                                <col style="width: 33.3333%;">
+                                <col style="width: 33.3334%;">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <td class="tableblock halign-left valign-middle">
+                                        <p class="tableblock">\[X_nY_m\]</p>
+                                    </td>
+                                    <td class="tableblock halign-left valign-middle">
+                                        <div class="content">
+                                            <div class="ulist">
+                                                <ul>
+                                                    <li>
+                                                        <p>\(X\) a ante \(i\)</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>\(Y\) a ante \(j\)</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="tableblock halign-right valign-middle">
+                                        <div class="content">
+                                            <table class="tableblock frame-all grid-all stretch">
+                                                <colgroup>
+                                                    <col style="width: 100%;">
+                                                </colgroup>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="tableblock halign-right valign-middle">
+                                                            <p class="tableblock">Trad.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="tableblock halign-right valign-middle">
+                                                            <p class="tableblock">Stock.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="tableblock halign-right valign-middle">
+                                                            <p class="tableblock">Esteq.</p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sect1">
+            <h2 id="_quotes">Quotes</h2>
+            <div class="sectionbody">
+                <div class="quoteblock">
+                    <blockquote>
+                        <div class="paragraph">
+                            <p>This is a block quote or a prose excerpt. This is subject to normal substitutions.</p>
+                        </div>
+                    </blockquote>
+                    <div class="attribution">
+                        &#8212; firstname lastname<br>
+                        <cite>movie title</cite>
+                    </div>
+                </div>
+                <div class="verseblock">
+                    <pre class="content">This is a verse block.
+      Indents and endlines are preserved in verse blocks.</pre>
+                    <div class="attribution">
+                        &#8212; firstname lastname<br>
+                        <cite>poem title and more</cite>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sect1">
+            <h2 id="_admonitions">Admonitions</h2>
+            <div class="sectionbody">
+                <div class="admonitionblock tip">
+                    <table>
+                        <tr>
+                            <td class="icon">
+                                <i class="fa icon-tip" title="Tip"></i>
+                            </td>
+                            <td class="content">
+                                This is a tip. There are five admonition labels: Tip, Note, Important, Caution and Warning.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="admonitionblock note">
+                    <table>
+                        <tr>
+                            <td class="icon">
+                                <i class="fa icon-note" title="Note"></i>
+                            </td>
+                            <td class="content">
+                                This is a note.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="admonitionblock important">
+                    <table>
+                        <tr>
+                            <td class="icon">
+                                <i class="fa icon-important" title="Important"></i>
+                            </td>
+                            <td class="content">
+                                This is important.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="admonitionblock caution">
+                    <table>
+                        <tr>
+                            <td class="icon">
+                                <i class="fa icon-caution" title="Caution"></i>
+                            </td>
+                            <td class="content">
+                                Caution&#8201;&#8212;&#8201;be careful!
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="admonitionblock warning">
+                    <table>
+                        <tr>
+                            <td class="icon">
+                                <i class="fa icon-warning" title="Warning"></i>
+                            </td>
+                            <td class="content">
+                                This is a warning.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="sect2">
+                    <h3 id="_admonition_blocks">Admonition blocks</h3>
+                    <div class="admonitionblock note">
+                        <table>
+                            <tr>
+                                <td class="icon">
+                                    <i class="fa icon-note" title="Note"></i>
+                                </td>
+                                <td class="content">
+                                    <div class="title">A "NOTE" type admonition</div>
+                                    <div class="paragraph">
+                                        <p>This is an example of an admonition block.</p>
+                                    </div>
+                                    <div class="paragraph">
+                                        <p>Unlike an admonition paragraph, it may contain any AsciiDoc content. The style can be any one of the admonition labels:</p>
+                                    </div>
+                                    <div class="ulist">
+                                        <ul>
+                                            <li>
+                                                <p>NOTE</p>
+                                            </li>
+                                            <li>
+                                                <p>TIP</p>
+                                            </li>
+                                            <li>
+                                                <p>WARNING</p>
+                                            </li>
+                                            <li>
+                                                <p>CAUTION</p>
+                                            </li>
+                                            <li>
+                                                <p>IMPORTANT</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footnotes">
+        <hr>
+        <div class="footnote" id="_footnotedef_1">
+            <a href="#_footnoteref_1">1</a>. This is footnote text and will be displayed at the bottom of the article.
+        </div>
     </div>
     <div id="footer">
-      <div id="footer-text">
-        Last updated 2016-06-30 04:16:33 PDT
-      </div>
+        <div id="footer-text">
+            Version 1.0<br> Last updated 2019-11-22 06:10:27 -0800
+        </div>
     </div>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+	messageStyle: "none",
+	tex2jax: {
+	  inlineMath: [["\\(", "\\)"]],
+	  displayMath: [["\\[", "\\]"]],
+	  ignoreClass: "nostem|nolatexmath"
+	},
+	asciimath2jax: {
+	  delimiters: [["\\$", "\\$"]],
+	  ignoreClass: "nostem|noasciimath"
+	},
+	TeX: { equationNumbers: { autoNumber: "none" } }
+      })
+      MathJax.Hub.Register.StartupHook("AsciiMath Jax Ready", function () {
+	MathJax.InputJax.AsciiMath.postfilterHooks.Add(function (data, node) {
+	  if ((node = data.script.parentNode) && (node = node.parentNode) && node.classList.contains('stemblock')) {
+	    data.math.root.display = "block"
+	  }
+	  return data
+	})
+      })
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
     <script src="switcher.js" type="text/javascript"></script>
-  </body>
+</body>
+
 </html>

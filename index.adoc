@@ -1,118 +1,247 @@
-= Sample title
+= AsciiDoc Article Title
+Firstname Lastname <author@asciidoctor.org>
+1.0, July 29, 2014, Asciidoctor 1.5 article template
 :toc: left
-:stylesheet: css/clean.css
+:toclevels: 5
 :icons: font
+:stem: latexmath
+:quick-uri: https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
 
-== Text
+Content entered directly below the header but before the first section heading is called the preamble.
 
-=== Headings
+== Text formatting
 
-[discrete]
-= Heading 1
-[discrete]
-== Heading 2
-[discrete]
-=== Heading 3
-[discrete]
-==== Heading 4
-[discrete]
-===== Heading 5
-[discrete]
-====== Heading 6
+This is a paragraph of regular text.
 
-=== Paragraphs
+This is a paragraph with a *bold* word and an _italicized_ word. *_Bold italic_* is also possible.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra viverra nisl, vel maximus turpis ornare a. Ut scelerisque lectus sed odio dictum scelerisque vitae quis nisi. Nulla facilisi. Phasellus vehicula convallis nisl, id suscipit dui semper at. In eu iaculis lorem. In vehicula sed mauris et suscipit. Vivamus pellentesque non massa sit amet ornare. Integer placerat est vitae nisl molestie, eget rhoncus erat vulputate. Proin ornare massa eget bibendum faucibus.
+Words can also have internal b**ol**d and it__ali__c formatting.
 
-=== Blockquotes
+Some constrained `monospace text`, and some ``u``nconstrained ``m``onospace ``t``ext.
 
-"Etiam porttitor egestas elit, at venenatis neque accumsan eu. Nulla viverra odio nisi, quis commodo tellus tristique non. Proin ac ante at orci euismod eleifend. Quisque nisi sapien, dapibus in venenatis sit amet, posuere non purus. In sit amet metus erat. Pellentesque nec neque eleifend, luctus ipsum at, ullamcorper nunc. Pellentesque sagittis, dolor eu bibendum lacinia, orci ex bibendum risus, at tincidunt augue lacus eleifend diam. Nulla facilisis velit ut est auctor sollicitudin. Morbi eget lectus a lacus maximus molestie in ut lorem."
--- Said no one, ever.
+Some Superscript^®^ text and some subscript text: H~2~O.
 
-=== Lists
+=== Links
 
-==== Ordered List
+The text at the end of this sentence is cross referenced to <<_third_level_heading,the third level heading>>
 
-. List item 1
-. List item 2
-.. Indented level 2
-... Indented level 3
-. List item 3
+This is a link to the https://asciidoctor.org/docs/user-manual/[Asciidoctor User Manual^].
 
-==== Unordered List
+This is an attribute reference {quick-uri}[which links this text to the Asciidoctor Quick Reference Guide^].
 
-* List item 1
-* List item 2
-** Indented level 2
-*** Indented level 3
-**** Indented level 4
-***** Indented level 5
-* List item 3
+=== Replacements
 
-=== Inline elements
+* copyright: (C)
+* registered trademark: (R)
+* trademark: (TM)
+* em dash (between words): --
+* ellipses: ...
+* arrows: -> => <- <=
+* apostrophe: Sam's
+* XML entity (e.g., dagger): &#8224;
 
-* https://darshandsoni.com/asciidoctor-skins/[This is a text link].
-* *This is bold (strong) text.*
-* _This is italic (emphasis) text._
-* +++<u>This is underlined text</u>+++.
-* +++<del>This text is deleted</del>+++ and +++<ins>This text is inserted</ins>+++.
-* +++<s>This text has a strikethrough</s>+++.
-* Superscript^®^.
-* Subscript for things like H~2~O.
-* +++<small>This small text is small for for fine print, etc</small>+++.
-* The #mark element# indicates a highlight.
+=== Math
 
-== Horizontal rules
+Find the area under the graph of \$y = x^2\$ between \$x= 1\$ and \$x = 2\$.
 
-'''
+\[ \int_1^2 x^2 dx = \left[ \frac{x^3}{3} \right]_1^2 = \frac{2^3}{3} - \frac{1^3}{3} = \frac{7}{3} \]
 
-== Tabular data
+== Images
 
-[options="header,footer",caption=]
-.Table Caption
+.Image caption
+image::resources/picture.jpg[This is the image alt text.]
+
+== Footnotes
+
+This is another paragraph.footnote:[This is footnote text and will be displayed at the bottom of the article.]
+
+== Headings
+=== Second level heading
+==== Third level heading
+===== Fourth level heading
+====== Fifth level heading
+
+== Lists
+
+=== Unordered lists
+
+.Unordered list title
+* list item 1
+** nested list item
+*** nested nested list item 1
+*** nested nested list item 2
+* list item 2
+
+=== Ordered lists
+
+.Ordered list title
+. ordered list item
+.. nested ordered list item
+. ordered list item
+.. second level list item
+... third level list item
+... another third level list item
+... a final third level list item
+.. another second level list item
+
+You can override the number scheme for any level by setting its style (the first positional entry in a block attribute list). You can also set the starting number using the start attribute:
+
+["lowerroman", start=5]
+. Five
+. Six
+[loweralpha]
+.. a
+.. b
+.. c
+. Seven
+
+=== Labelled lists
+
+Here's an example of a labeled list that identifies parts of a computer:
+
+CPU:: The brain of the computer.
+Hard drive:: Permanent storage for operating system and/or user files.
+RAM:: Temporarily stores information the CPU uses during operation.
+Keyboard:: Used to enter text or control items on the screen.
+Mouse:: Used to point to and select items on your computer screen.
+Monitor:: Displays information in visual form using text and graphics.
+
+.A horizontal labelled list
+[horizontal]
+CPU:: The brain of the computer.
+Hard drive:: Permanent storage for operating system and/or user files.
+RAM:: Temporarily stores information the CPU uses during operation.
+
+.Labelled list with bullets
+Diary::
+* Milk
+* Eggs
+Bakery::
+* Bread
+Produce::
+* Bananas
+
+=== Mixed lists
+
+.Mixed unordered and ordered lists
+. Linux
+* Fedora
+* Ubuntu
+* Slackware
+. BSD
+* FreeBSD
+* NetBSD
+
+Here’s a list that mixes all three types of lists:
+
+Operating Systems::
+  . Linux
+    * Fedora
+    * Ubuntu
+    * Slackware
+  . BSD
+    * FreeBSD
+    * NetBSD
+Cloud Providers::
+  . PaaS
+    * OpenShift
+    * CloudBees
+  . IaaS
+    * Amazon EC2
+    * Rackspace
+
+== Blocks
+
+.Example block title
+====
+Content in an example block is subject to normal substitutions.
+====
+
+.Sidebar title
+****
+Sidebars contain aside text and are subject to normal substitutions.
+****
+
+[#id-for-listing-block]
+.Listing block title
+----
+Content in a listing block is subject to verbatim substitutions.
+Listing block content is commonly used to preserve code input.
+----
+
+== Tables
+
+.A simple table with a title
 |===
-|Table Heading 1 | Table Heading 2 | Table Heading 3 | Table Heading 4 | Table Heading 5
-|Table Cell 1 | Table Cell 2 | Table Cell 3 | Table Cell 4 | Table Cell 5
-|Table Cell 1 | Table Cell 2 | Table Cell 3 | Table Cell 4 | Table Cell 5
-|Table Cell 1 | Table Cell 2 | Table Cell 3 | Table Cell 4 | Table Cell 5
-|Table Cell 1 | Table Cell 2 | Table Cell 3 | Table Cell 4 | Table Cell 5
-|Table Footer 1 | Table Footer 2 | Table Footer 3 | Table Footer 4 | Table Footer 5
+|Column heading 1 |Column heading 2
+
+|Column 1, row 1
+|Column 2, row 1
+
+|Column 1, row 2
+|Column 2, row 2
 |===
 
-== Code
+====
+.A table containing another nested table
+[cols=".^,<.^a,>.^a"]
+|===
+| \[X_nY_m\]
+| * \(X\) a ante \(i\)
+* \(Y\) a ante \(j\)
+| [cols=">.^"]
+!===
+! Trad. ! Stock. ! Esteq.
+!===
+|===
+====
 
-* Inline code: `<div>code</div>`
-* Pre-formatted text:
 
-[literal]
-P R E F O R M A T T E D T E X T
-! " # $ % & ' ( ) * + , - . /
-0 1 2 3 4 5 6 7 8 9 : ; < = > ?
-@ A B C D E F G H I J K L M N O
-P Q R S T U V W X Y Z [ \ ] ^ _
-` a b c d e f g h i j k l m n o
-p q r s t u v w x y z { | } ~ 
+== Quotes
 
-== Form elements
+[quote, firstname lastname, movie title]
+____
+This is a block quote or a prose excerpt.
+This is subject to normal substitutions.
+____
 
-=== Checkboxes
+[verse, firstname lastname, poem title and more]
+____
+This is a verse block.
+  Indents and endlines are preserved in verse blocks.
+____
 
-- [*] Choice A (checked)
-- [x] Choice B (also checked)
-- [ ] Choice C (not checked)
--     normal list item
+== Admonitions
 
-== Embedded content
+TIP: This is a tip. There are five admonition labels: Tip, Note, Important, Caution and Warning.
 
-=== Images
+NOTE: This is a note.
 
-.Here is a caption for this image.
-image::resources/picture.jpg[]
+IMPORTANT: This is important.
 
-=== Audio
+CAUTION: Caution -- be careful!
 
-+++<audio controls><source src="https://ia802702.us.archive.org/7/items/Best100InstrumentalSongs/001-RichardClayderman-BalladePourAdeline.mp3"></audio>+++
+WARNING: This is a warning.
 
-=== Video
+=== Admonition blocks
 
-video::https://github.com/benhosmer/HTML5-Test-Videos/blob/master/big_buck_bunny.mp4?raw=true[]
+[NOTE]
+.A "NOTE" type admonition
+====
+This is an example of an admonition block.
+
+Unlike an admonition paragraph, it may contain any AsciiDoc content.
+The style can be any one of the admonition labels:
+
+* NOTE
+* TIP
+* WARNING
+* CAUTION
+* IMPORTANT
+====
+
+
+// This is a comment and won't be rendered.
+
+// Based on https://github.com/asciidoctor/asciidoctor.org/blob/master/docs/_includes/asciidoc-article-template.adoc[Asciidoctor article template] and the https://asciidoctor.org/docs/asciidoc-writers-guide/[AsaciiDoc Writer's Guide]
+
