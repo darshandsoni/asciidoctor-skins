@@ -122,7 +122,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 html, body { font-size: 100%; }
 
-body { background: white; color: #222222; padding: 0; margin: 0; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: normal; font-style: normal; line-height: 1; position: relative; cursor: auto; }
+body { color: #222222; padding: 0; margin: 0; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: normal; font-style: normal; line-height: 1; position: relative; cursor: auto; }
 
 a:hover { cursor: pointer; }
 
@@ -623,7 +623,7 @@ span.icon > [class^="icon-"], span.icon > [class*=" icon-"] { cursor: default; }
 .conum:after { content: attr(data-value); }
 .conum:not([data-value]):empty { display: none; }
 
-body { background: url('../images/golo/body-bg.png?1364899918') #fdfaf7 repeat; }
+html { background: url('../images/golo/body-bg.png?1364899918') #fdfaf7 repeat; }
 
 #toc.toc2 ol ol { list-style-type: circle; padding-left: 1.75em; }
 
