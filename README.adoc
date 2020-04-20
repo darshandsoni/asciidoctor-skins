@@ -60,6 +60,10 @@ Available stylesheets:
 
 NOTE: the https://darshandsoni.com/asciidoctor-skins/?template[template] skin is specifically designed as an aid for theming experiments, to make it easier to see the sections of the document affected by different CSS classes.
 
+=== Additional themes
+
+* https://darshandsoni.com/asciidoctor-skins/?asciidoc-classic[Asciidoc Classic] - The original default http://asciidoc.org/[AsciiDoc] stylesheet by Stuart Rackham. Licensed under https://github.com/asciidoc/asciidoc/blob/master/COPYING[GPLv2].
+
 === Collections
 
 **Adoc skins**, based on the official https://themes.asciidoctor.org/preview/[Asciidoctor themes site] by the Asciidoctor project (https://github.com/asciidoctor/asciidoctor-stylesheet-factory/blob/master/LICENSE[MIT]):
