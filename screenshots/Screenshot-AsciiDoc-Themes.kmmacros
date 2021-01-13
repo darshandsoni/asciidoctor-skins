@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>550937826.58619595</real>
+		<key>CustomIconData</key>
+		<data>
+		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
+		AA5jaGFkAAAHrAAAACxiVFJDAAAHnAAAAA5nVFJDAAAHnAAAAA5kZXNjAAAA
+		AAAAABRHZW5lcmljIFJHQiBQcm9maWxlAAAAAAAAAAAAAAAUR2VuZXJpYyBS
+		R0IgUHJvZmlsZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAAAAAAAAAAAAAAAAAAbWx1YwAAAAAAAAAfAAAADHNrU0sAAAAoAAABhGRh
+		REsAAAAuAAABrGNhRVMAAAAkAAAB2nZpVk4AAAAkAAAB/nB0QlIAAAAmAAAC
+		InVrVUEAAAAqAAACSGZyRlUAAAAoAAACcmh1SFUAAAAoAAACmnpoVFcAAAAW
+		AAACwm5iTk8AAAAmAAAC2GNzQ1oAAAAiAAAC/mhlSUwAAAAeAAADIGl0SVQA
+		AAAoAAADPnJvUk8AAAAkAAADZmRlREUAAAAsAAADimtvS1IAAAAWAAADtnN2
+		U0UAAAAmAAAC2HpoQ04AAAAWAAADzGphSlAAAAAaAAAD4mVsR1IAAAAiAAAD
+		/HB0UE8AAAAmAAAEHm5sTkwAAAAoAAAERGVzRVMAAAAmAAAEHnRoVEgAAAAk
+		AAAEbHRyVFIAAAAiAAAEkGZpRkkAAAAoAAAEsmhySFIAAAAoAAAE2nBsUEwA
+		AAAsAAAFAnJ1UlUAAAAiAAAFLmFyRUcAAAAmAAAFUGVuVVMAAAAmAAAFdgBW
+		AWEAZQBvAGIAZQBjAG4A/QAgAFIARwBCACAAcAByAG8AZgBpAGwARwBlAG4A
+		ZQByAGUAbAAgAFIARwBCAC0AYgBlAHMAawByAGkAdgBlAGwAcwBlAFAAZQBy
+		AGYAaQBsACAAUgBHAEIAIABnAGUAbgDoAHIAaQBjAEMepQB1ACAAaADsAG4A
+		aAAgAFIARwBCACAAQwBoAHUAbgBnAFAAZQByAGYAaQBsACAAUgBHAEIAIABH
+		AGUAbgDpAHIAaQBjAG8EFwQwBDMEMAQ7BEwEPQQ4BDkAIAQ/BEAEPgREBDAE
+		OQQ7ACAAUgBHAEIAUAByAG8AZgBpAGwAIABnAOkAbgDpAHIAaQBxAHUAZQAg
+		AFIAVgBCAMEAbAB0AGEAbADhAG4AbwBzACAAUgBHAEIAIABwAHIAbwBmAGkA
+		bJAadSgAIABSAEcAQgAggnJfaWPPj/AARwBlAG4AZQByAGkAcwBrACAAUgBH
+		AEIALQBwAHIAbwBmAGkAbABPAGIAZQBjAG4A/QAgAFIARwBCACAAcAByAG8A
+		ZgBpAGwF5AXoBdUF5AXZBdwAIABSAEcAQgAgBdsF3AXcBdkAUAByAG8AZgBp
+		AGwAbwAgAFIARwBCACAAZwBlAG4AZQByAGkAYwBvAFAAcgBvAGYAaQBsACAA
+		UgBHAEIAIABnAGUAbgBlAHIAaQBjAEEAbABsAGcAZQBtAGUAaQBuAGUAcwAg
+		AFIARwBCAC0AUAByAG8AZgBpAGzHfLwYACAAUgBHAEIAINUEuFzTDMd8Zm6Q
+		GgAgAFIARwBCACBjz4/wZYdO9k4AgiwAIABSAEcAQgAgMNcw7TDVMKEwpDDr
+		A5MDtQO9A7kDugPMACADwAPBA78DxgOvA7sAIABSAEcAQgBQAGUAcgBmAGkA
+		bAAgAFIARwBCACAAZwBlAG4A6QByAGkAYwBvAEEAbABnAGUAbQBlAGUAbgAg
+		AFIARwBCAC0AcAByAG8AZgBpAGUAbA5CDhsOIw5EDh8OJQ5MACAAUgBHAEIA
+		IA4XDjEOSA4nDkQOGwBHAGUAbgBlAGwAIABSAEcAQgAgAFAAcgBvAGYAaQBs
+		AGkAWQBsAGUAaQBuAGUAbgAgAFIARwBCAC0AcAByAG8AZgBpAGkAbABpAEcA
+		ZQBuAGUAcgBpAQ0AawBpACAAUgBHAEIAIABwAHIAbwBmAGkAbABVAG4AaQB3
+		AGUAcgBzAGEAbABuAHkAIABwAHIAbwBmAGkAbAAgAFIARwBCBB4EMQRJBDgE
+		OQAgBD8EQAQ+BEQEOAQ7BEwAIABSAEcAQgZFBkQGQQAgBioGOQYxBkoGQQAg
+		AFIARwBCACAGJwZEBjkGJwZFAEcAZQBuAGUAcgBpAGMAIABSAEcAQgAgAFAA
+		cgBvAGYAaQBsAGV0ZXh0AAAAAENvcHlyaWdodCAyMDA3IEFwcGxlIEluYy4s
+		IGFsbCByaWdodHMgcmVzZXJ2ZWQuAFhZWiAAAAAAAADzUgABAAAAARbPWFla
+		IAAAAAAAAHRNAAA97gAAA9BYWVogAAAAAAAAWnUAAKxzAAAXNFhZWiAAAAAA
+		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
+		AGUAbwBiAGUAYwBuAP0AIABSAEcAQgAgAHAAcgBvAGYAaQBsAEcAZQBuAGUA
+		cgBlAGwAIABSAEcAQgAtAGIAZQBzAGsAcgBpAHYAZQBsAHMAZQBQAGUAcgBm
+		AGkAbAAgAFIARwBCACAAZwBlAG4A6AByAGkAYwBDHqUAdQAgAGgA7ABuAGgA
+		IABSAEcAQgAgAEMAaAB1AG4AZwBQAGUAcgBmAGkAbAAgAFIARwBCACAARwBl
+		AG4A6QByAGkAYwBvBBcEMAQzBDAEOwRMBD0EOAQ5ACAEPwRABD4ERAQwBDkE
+		OwAgAFIARwBCAFAAcgBvAGYAaQBsACAAZwDpAG4A6QByAGkAcQB1AGUAIABS
+		AFYAQgDBAGwAdABhAGwA4QBuAG8AcwAgAFIARwBCACAAcAByAG8AZgBpAGyQ
+		GnUoACAAUgBHAEIAIIJyX2ljz4/wAEcAZQBuAGUAcgBpAHMAawAgAFIARwBC
+		AC0AcAByAG8AZgBpAGwATwBiAGUAYwBuAP0AIABSAEcAQgAgAHAAcgBvAGYA
+		aQBsBeQF6AXVBeQF2QXcACAAUgBHAEIAIAXbBdwF3AXZAFAAcgBvAGYAaQBs
+		AG8AIABSAEcAQgAgAGcAZQBuAGUAcgBpAGMAbwBQAHIAbwBmAGkAbAAgAFIA
+		RwBCACAAZwBlAG4AZQByAGkAYwBBAGwAbABnAGUAbQBlAGkAbgBlAHMAIABS
+		AEcAQgAtAFAAcgBvAGYAaQBsx3y8GAAgAFIARwBCACDVBLhc0wzHfGZukBoA
+		IABSAEcAQgAgY8+P8GWHTvZOAIIsACAAUgBHAEIAIDDXMO0w1TChMKQw6wOT
+		A7UDvQO5A7oDzAAgA8ADwQO/A8YDrwO7ACAAUgBHAEIAUABlAHIAZgBpAGwA
+		IABSAEcAQgAgAGcAZQBuAOkAcgBpAGMAbwBBAGwAZwBlAG0AZQBlAG4AIABS
+		AEcAQgAtAHAAcgBvAGYAaQBlAGwOQg4bDiMORA4fDiUOTAAgAFIARwBCACAO
+		Fw4xDkgOJw5EDhsARwBlAG4AZQBsACAAUgBHAEIAIABQAHIAbwBmAGkAbABp
+		AFkAbABlAGkAbgBlAG4AIABSAEcAQgAtAHAAcgBvAGYAaQBpAGwAaQBHAGUA
+		bgBlAHIAaQENAGsAaQAgAFIARwBCACAAcAByAG8AZgBpAGwAVQBuAGkAdwBl
+		AHIAcwBhAGwAbgB5ACAAcAByAG8AZgBpAGwAIABSAEcAQgQeBDEESQQ4BDkA
+		IAQ/BEAEPgREBDgEOwRMACAAUgBHAEIGRQZEBkEAIAYqBjkGMQZKBkEAIABS
+		AEcAQgAgBicGRAY5BicGRQBHAGUAbgBlAHIAaQBjACAAUgBHAEIAIABQAHIA
+		bwBmAGkAbABldGV4dAAAAABDb3B5cmlnaHQgMjAwNyBBcHBsZSBJbmMuLCBh
+		bGwgcmlnaHRzIHJlc2VydmVkLgBYWVogAAAAAAAA81IAAQAAAAEWz1hZWiAA
+		AAAAAAB0TQAAPe4AAAPQWFlaIAAAAAAAAFp1AACscwAAFzRYWVogAAAAAAAA
+		KBoAABWfAAC4NmN1cnYAAAAAAAAAAQHNAABzZjMyAAAAAAABDEIAAAXe///z
+		JgAAB5IAAP2R///7ov///aMAAAPcAADAbIAAIEACFBSEvYQvYHC4ZDYdD4hA
+		iHEyGvosvoXBoPCYjHY9HYpFYvGYNCYVH4E4ZUAG7LQAIJgABFM4/IYvGIHG
+		pNC3nPQAyaAAF1QwAu6MAAVSQAfaYACRT5rFJvJILO4G8KwAGHWwAwa8AF5Y
+		QAEbIAD/ZwAQLVUYnU5zJY5HZa3QAgLsAHLebNaB/fbZIotVI3CI82cMAEDi
+		QA6MZez+AL6P7/boFOrjEcM2cRisY6MdkL9HptI7fVcvEMzm0Di8bZ8fkcnp
+		MrcMJHdTidXnbrdx9vdjgdLg5PEW3xd2gLxertyLUQN/ONnptrAnr1QAzOwA
+		FN2wAt+8AHf4QAQfIADV5wAOvUAAd7YZo+B0eFC3p9ev2W5+QABP4AAE/4AH
+		1AQAA7AoABxBAAAfBb3qk2SCNo4aUQm0UHPjCDpQlCkNoc+DoQw+cOREhsPI
+		CAARAQAAAwAAAAEAEAAAAQEAAwAAAAEAEAAAAQIAAwAAAAQAABsEAQMAAwAA
+		AAEABQAAAQYAAwAAAAEAAgAAAQoAAwAAAAEAAQAAAREABAAAAAEAABjiARIA
+		AwAAAAEAAQAAARUAAwAAAAEABAAAARYAAwAAAAEAEAAAARcABAAAAAEAAAFQ
+		ARwAAwAAAAEAAQAAASgAAwAAAAEAAgAAAT0AAwAAAAEAAgAAAVIAAwAAAAEA
+		AQAAAVMAAwAAAAQAABsMh3MABwAAB9gAABsUAAAAAAAIAAgACAAIAAEAAQAB
+		AAEAAAfYYXBwbAIgAABtbnRyUkdCIFhZWiAH2QACABkACwAaAAthY3NwQVBQ
+		TAAAAABhcHBsAAAAAAAAAAAAAAAAAAAAAAAA9tYAAQAAAADTLWFwcGwAAAAA
+		AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtk
+		ZXNjAAABCAAAAG9kc2NtAAABeAAABZxjcHJ0AAAHFAAAADh3dHB0AAAHTAAA
+		ABRyWFlaAAAHYAAAABRnWFlaAAAHdAAAABRiWFlaAAAHiAAAABRyVFJDAAAH
+		nAAAAA5jaGFkAAAHrAAAACxiVFJDAAAHnAAAAA5nVFJDAAAHnAAAAA5kZXNj
+		AAAAAAAAABRHZW5lcmljIFJHQiBQcm9maWxlAAAAAAAAAAAAAAAUR2VuZXJp
+		YyBSR0IgUHJvZmlsZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAAAAAAAAAAAAAAAAAAAAAAbWx1YwAAAAAAAAAfAAAADHNrU0sAAAAoAAAB
+		hGRhREsAAAAuAAABrGNhRVMAAAAkAAAB2nZpVk4AAAAkAAAB/nB0QlIAAAAm
+		AAACInVrVUEAAAAqAAACSGZyRlUAAAAoAAACcmh1SFUAAAAoAAACmnpoVFcA
+		AAAWAAACwm5iTk8AAAAmAAAC2GNzQ1oAAAAiAAAC/mhlSUwAAAAeAAADIGl0
+		SVQAAAAoAAADPnJvUk8AAAAkAAADZmRlREUAAAAsAAADimtvS1IAAAAWAAAD
+		tnN2U0UAAAAmAAAC2HpoQ04AAAAWAAADzGphSlAAAAAaAAAD4mVsR1IAAAAi
+		AAAD/HB0UE8AAAAmAAAEHm5sTkwAAAAoAAAERGVzRVMAAAAmAAAEHnRoVEgA
+		AAAkAAAEbHRyVFIAAAAiAAAEkGZpRkkAAAAoAAAEsmhySFIAAAAoAAAE2nBs
+		UEwAAAAsAAAFAnJ1UlUAAAAiAAAFLmFyRUcAAAAmAAAFUGVuVVMAAAAmAAAF
+		dgBWAWEAZQBvAGIAZQBjAG4A/QAgAFIARwBCACAAcAByAG8AZgBpAGwARwBl
+		AG4AZQByAGUAbAAgAFIARwBCAC0AYgBlAHMAawByAGkAdgBlAGwAcwBlAFAA
+		ZQByAGYAaQBsACAAUgBHAEIAIABnAGUAbgDoAHIAaQBjAEMepQB1ACAAaADs
+		AG4AaAAgAFIARwBCACAAQwBoAHUAbgBnAFAAZQByAGYAaQBsACAAUgBHAEIA
+		IABHAGUAbgDpAHIAaQBjAG8EFwQwBDMEMAQ7BEwEPQQ4BDkAIAQ/BEAEPgRE
+		BDAEOQQ7ACAAUgBHAEIAUAByAG8AZgBpAGwAIABnAOkAbgDpAHIAaQBxAHUA
+		ZQAgAFIAVgBCAMEAbAB0AGEAbADhAG4AbwBzACAAUgBHAEIAIABwAHIAbwBm
+		AGkAbJAadSgAIABSAEcAQgAggnJfaWPPj/AARwBlAG4AZQByAGkAcwBrACAA
+		UgBHAEIALQBwAHIAbwBmAGkAbABPAGIAZQBjAG4A/QAgAFIARwBCACAAcABy
+		AG8AZgBpAGwF5AXoBdUF5AXZBdwAIABSAEcAQgAgBdsF3AXcBdkAUAByAG8A
+		ZgBpAGwAbwAgAFIARwBCACAAZwBlAG4AZQByAGkAYwBvAFAAcgBvAGYAaQBs
+		ACAAUgBHAEIAIABnAGUAbgBlAHIAaQBjAEEAbABsAGcAZQBtAGUAaQBuAGUA
+		cwAgAFIARwBCAC0AUAByAG8AZgBpAGzHfLwYACAAUgBHAEIAINUEuFzTDMd8
+		Zm6QGgAgAFIARwBCACBjz4/wZYdO9k4AgiwAIABSAEcAQgAgMNcw7TDVMKEw
+		pDDrA5MDtQO9A7kDugPMACADwAPBA78DxgOvA7sAIABSAEcAQgBQAGUAcgBm
+		AGkAbAAgAFIARwBCACAAZwBlAG4A6QByAGkAYwBvAEEAbABnAGUAbQBlAGUA
+		bgAgAFIARwBCAC0AcAByAG8AZgBpAGUAbA5CDhsOIw5EDh8OJQ5MACAAUgBH
+		AEIAIA4XDjEOSA4nDkQOGwBHAGUAbgBlAGwAIABSAEcAQgAgAFAAcgBvAGYA
+		aQBsAGkAWQBsAGUAaQBuAGUAbgAgAFIARwBCAC0AcAByAG8AZgBpAGkAbABp
+		AEcAZQBuAGUAcgBpAQ0AawBpACAAUgBHAEIAIABwAHIAbwBmAGkAbABVAG4A
+		aQB3AGUAcgBzAGEAbABuAHkAIABwAHIAbwBmAGkAbAAgAFIARwBCBB4EMQRJ
+		BDgEOQAgBD8EQAQ+BEQEOAQ7BEwAIABSAEcAQgZFBkQGQQAgBioGOQYxBkoG
+		QQAgAFIARwBCACAGJwZEBjkGJwZFAEcAZQBuAGUAcgBpAGMAIABSAEcAQgAg
+		AFAAcgBvAGYAaQBsAGV0ZXh0AAAAAENvcHlyaWdodCAyMDA3IEFwcGxlIElu
+		Yy4sIGFsbCByaWdodHMgcmVzZXJ2ZWQuAFhZWiAAAAAAAADzUgABAAAAARbP
+		WFlaIAAAAAAAAHRNAAA97gAAA9BYWVogAAAAAAAAWnUAAKxzAAAXNFhZWiAA
+		AAAAAAAoGgAAFZ8AALg2Y3VydgAAAAAAAAABAc0AAHNmMzIAAAAAAAEMQgAA
+		Bd7///MmAAAHkgAA/ZH///ui///9owAAA9wAAMBs
+		</data>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>AllWindows</key>
+						<true/>
+						<key>AlreadyActivatedActionType</key>
+						<string>Normal</string>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.apple.Safari</string>
+							<key>Name</key>
+							<string>Safari</string>
+							<key>NewFile</key>
+							<string>/Applications/Safari.app</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>ActivateApplication</string>
+						<key>ReopenWindows</key>
+						<false/>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>MacroActionType</key>
+						<string>Pause</string>
+						<key>Time</key>
+						<string>.5</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>DisplayKind</key>
+								<string>None</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteJavaScript</string>
+								<key>Path</key>
+								<string></string>
+								<key>Text</key>
+								<string>window.scrollTo(0, 0);
+
+var dropdown = document.getElementById("switcher_dropdown")
+dropdown.value = document.kmvar.Local_CSSName;
+switchCss(document.kmvar.Local_CSSName);
+
+window.scrollTo(0, 0);</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+								<key>WebBrowser</key>
+								<string>Safari</string>
+							</dict>
+							<dict>
+								<key>MacroActionType</key>
+								<string>Pause</string>
+								<key>Time</key>
+								<string>1.5</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>AlwaysNominalResolution</key>
+								<false/>
+								<key>IncludeShadows</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>ScreenCapture</string>
+								<key>ScreenArea</key>
+								<dict>
+									<key>ScreenAreaType</key>
+									<string>ScreenMain</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>Append</key>
+								<false/>
+								<key>Destination</key>
+								<string>/Users/robert/Documents/CloudDocs/Documents/Coding/AsciiDoctor Themes:Skins/Screenshot-gen/f.png</string>
+								<key>Encoding</key>
+								<string>UTF8</string>
+								<key>Format</key>
+								<string>PNG</string>
+								<key>Format2</key>
+								<string>PNG</string>
+								<key>MacroActionType</key>
+								<string>WriteFile</string>
+								<key>Source</key>
+								<string>Clipboard</string>
+							</dict>
+							<dict>
+								<key>DisplayKind</key>
+								<string>None</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteShellScript</string>
+								<key>Path</key>
+								<string></string>
+								<key>Source</key>
+								<string>Nothing</string>
+								<key>Text</key>
+								<string>mv -f "/Users/robert/Documents/CloudDocs/Documents/Coding/AsciiDoctor Themes:Skins/Screenshot-gen/f.png" "/Users/robert/Documents/CloudDocs/Documents/Coding/AsciiDoctor Themes:Skins/Screenshot-gen/${KMVAR_Local_CSSName}-base.png"</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>DisplayKind</key>
+								<string>None</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteJavaScript</string>
+								<key>Path</key>
+								<string></string>
+								<key>Text</key>
+								<string>document.getElementById("_headings").scrollIntoView();</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+								<key>WebBrowser</key>
+								<string>Safari</string>
+							</dict>
+							<dict>
+								<key>MacroActionType</key>
+								<string>Pause</string>
+								<key>Time</key>
+								<string>1.5</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>AlwaysNominalResolution</key>
+								<false/>
+								<key>IncludeShadows</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>ScreenCapture</string>
+								<key>ScreenArea</key>
+								<dict>
+									<key>ScreenAreaType</key>
+									<string>ScreenMain</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>Append</key>
+								<false/>
+								<key>Destination</key>
+								<string>/Users/robert/Documents/CloudDocs/Documents/Coding/AsciiDoctor Themes:Skins/Screenshot-gen/f.png</string>
+								<key>Encoding</key>
+								<string>UTF8</string>
+								<key>Format</key>
+								<string>PNG</string>
+								<key>Format2</key>
+								<string>PNG</string>
+								<key>MacroActionType</key>
+								<string>WriteFile</string>
+								<key>Source</key>
+								<string>Clipboard</string>
+							</dict>
+							<dict>
+								<key>DisplayKind</key>
+								<string>None</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteShellScript</string>
+								<key>Path</key>
+								<string></string>
+								<key>Source</key>
+								<string>Nothing</string>
+								<key>Text</key>
+								<string>mv -f "/Users/robert/Documents/CloudDocs/Documents/Coding/AsciiDoctor Themes:Skins/Screenshot-gen/f.png" "/Users/robert/Documents/CloudDocs/Documents/Coding/AsciiDoctor Themes:Skins/Screenshot-gen/${KMVAR_Local_CSSName}-headings.png"</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>DisplayKind</key>
+								<string>None</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteJavaScript</string>
+								<key>Path</key>
+								<string></string>
+								<key>Text</key>
+								<string>document.getElementById("_blocks").scrollIntoView();</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+								<key>WebBrowser</key>
+								<string>Safari</string>
+							</dict>
+							<dict>
+								<key>MacroActionType</key>
+								<string>Pause</string>
+								<key>Time</key>
+								<string>1.5</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>AlwaysNominalResolution</key>
+								<false/>
+								<key>IncludeShadows</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>ScreenCapture</string>
+								<key>ScreenArea</key>
+								<dict>
+									<key>ScreenAreaType</key>
+									<string>ScreenMain</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>Append</key>
+								<false/>
+								<key>Destination</key>
+								<string>/Users/robert/Documents/CloudDocs/Documents/Coding/AsciiDoctor Themes:Skins/Screenshot-gen/f.png</string>
+								<key>Encoding</key>
+								<string>UTF8</string>
+								<key>Format</key>
+								<string>PNG</string>
+								<key>Format2</key>
+								<string>PNG</string>
+								<key>MacroActionType</key>
+								<string>WriteFile</string>
+								<key>Source</key>
+								<string>Clipboard</string>
+							</dict>
+							<dict>
+								<key>DisplayKind</key>
+								<string>None</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteShellScript</string>
+								<key>Path</key>
+								<string></string>
+								<key>Source</key>
+								<string>Nothing</string>
+								<key>Text</key>
+								<string>mv -f "/Users/robert/Documents/CloudDocs/Documents/Coding/AsciiDoctor Themes:Skins/Screenshot-gen/f.png" "/Users/robert/Documents/CloudDocs/Documents/Coding/AsciiDoctor Themes:Skins/Screenshot-gen/${KMVAR_Local_CSSName}-blocks.png"</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>DisplayKind</key>
+								<string>None</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteJavaScript</string>
+								<key>Path</key>
+								<string></string>
+								<key>Text</key>
+								<string>document.getElementById("_quotes").scrollIntoView();</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+								<key>WebBrowser</key>
+								<string>Safari</string>
+							</dict>
+							<dict>
+								<key>MacroActionType</key>
+								<string>Pause</string>
+								<key>Time</key>
+								<string>1.5</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>AlwaysNominalResolution</key>
+								<false/>
+								<key>IncludeShadows</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>ScreenCapture</string>
+								<key>ScreenArea</key>
+								<dict>
+									<key>ScreenAreaType</key>
+									<string>ScreenMain</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>Append</key>
+								<false/>
+								<key>Destination</key>
+								<string>/Users/robert/Documents/CloudDocs/Documents/Coding/AsciiDoctor Themes:Skins/Screenshot-gen/f.png</string>
+								<key>Encoding</key>
+								<string>UTF8</string>
+								<key>Format</key>
+								<string>PNG</string>
+								<key>Format2</key>
+								<string>PNG</string>
+								<key>MacroActionType</key>
+								<string>WriteFile</string>
+								<key>Source</key>
+								<string>Clipboard</string>
+							</dict>
+							<dict>
+								<key>DisplayKind</key>
+								<string>None</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteShellScript</string>
+								<key>Path</key>
+								<string></string>
+								<key>Source</key>
+								<string>Nothing</string>
+								<key>Text</key>
+								<string>mv -f "/Users/robert/Documents/CloudDocs/Documents/Coding/AsciiDoctor Themes:Skins/Screenshot-gen/f.png" "/Users/robert/Documents/CloudDocs/Documents/Coding/AsciiDoctor Themes:Skins/Screenshot-gen/${KMVAR_Local_CSSName}-quotes.png"</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+							</dict>
+						</array>
+						<key>Collections</key>
+						<dict>
+							<key>CollectionList</key>
+							<array>
+								<dict>
+									<key>CollectionType</key>
+									<string>LinesIn</string>
+									<key>IncludeBlankLines</key>
+									<false/>
+									<key>Source</key>
+									<string>Text</string>
+									<key>Text</key>
+									<string>asciidoctor
+clean
+dark
+fedora
+gazette
+italian-pop
+medium
+monospace
+notebook
+plain
+tufte
+ubuntu
+adoc-colony
+adoc-foundation
+adoc-foundation-lime
+adoc-foundation-potion
+adoc-github
+adoc-golo
+adoc-iconic
+adoc-maker
+adoc-readthedocs
+adoc-riak
+adoc-rocket-panda
+adoc-rubygems
+boot-cerulean
+boot-cosmo
+boot-cyborg
+boot-darkly
+boot-flatly
+boot-journal
+boot-lumen
+boot-paper
+boot-readable
+boot-slate
+boot-spacelab
+boot-superhero
+boot-yeti
+material-amber
+material-blue
+material-brown
+material-green
+material-grey
+material-orange
+material-pink
+material-purple
+material-red
+material-teal
+template</string>
+								</dict>
+							</array>
+						</dict>
+						<key>MacroActionType</key>
+						<string>For</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Variable</key>
+						<string>Local_CSSName</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>608422714.79031599</real>
+				<key>ModificationDate</key>
+				<real>608424930.33446503</real>
+				<key>Name</key>
+				<string>Screenshot AsciiDoc Themes</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>30EED071-0518-4FA8-BE2F-470AAD928B24</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>One-offs</string>
+		<key>ToggleMacroUID</key>
+		<string>C4D99040-F91C-4FE1-ABBA-916AFA5E47A8</string>
+		<key>UID</key>
+		<string>91CF3727-8235-4ABF-8575-0AE9E7781F8B</string>
+	</dict>
+</array>
+</plist>
