@@ -330,7 +330,7 @@ kbd kbd:last-child { margin-right: 0; }
 
 #content #toctitle { font-weight: bold; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-size: 1em; padding-left: 0.125em; }
 
-#footer { max-width: 100%; background-color: none; padding: 1.25em; }
+#footer { max-width: 100%; background-color: transparent; padding: 1.25em; }
 
 #footer-text { color: black; line-height: 1.44; }
 

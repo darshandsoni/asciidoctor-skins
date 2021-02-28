@@ -166,11 +166,12 @@ video {
 }
 
 @media all and (max-width: 600px) {
-table {
-  width: 55vw!important;
-  font-size: 3vw;
-}
+  table {
+    width: 55vw !important;
+    font-size: 3vw;
+  }
 
-pre {
-  font-size: large;
+  pre {
+    font-size: large;
+  }
 }

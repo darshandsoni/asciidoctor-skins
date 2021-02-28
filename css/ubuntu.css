@@ -23,7 +23,7 @@ body{font-family: "Ubuntu",sans-serif;}
 
 h1,h2{color:var(--primarycolor) !important;font-family:"Ubuntu",sans-serif;}
 h3,h4,h5,h6{color:var(--secondarycolor);font-family: "Ubuntu",sans-serif;}
-.title{color:(--primarycolor) !important;font-family:"Ubuntu",sans-serif;font-style: normal; font-weight: normal;}
+.title{color:var(--primarycolor) !important;font-family:"Ubuntu",sans-serif;font-style: normal; font-weight: normal;}
 p{font-family: "Ubuntu",sans-serif ! important}
 #toc.toc2 a:link{color:white;}
 :not(pre)>code{background-color: var(--secondarycolor) !important;color:var(--white)}
@@ -42,7 +42,8 @@ video {
 }
 
 @media all and (max-width: 600px) {
-table {
-  width: 55vw!important;
-  font-size: 3vw;
+  table {
+    width: 55vw !important;
+    font-size: 3vw;
+  }
 }

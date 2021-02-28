@@ -331,7 +331,7 @@ kbd kbd:last-child { margin-right: 0; }
 
 #content #toctitle { font-weight: bold; font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif; font-size: 1em; padding-left: 0.125em; }
 
-#footer { max-width: 100%; background-color: none; padding: 1.25em; }
+#footer { max-width: 100%; background-color: transparent; padding: 1.25em; }
 
 #footer-text { color: black; line-height: 1.44; }
 
