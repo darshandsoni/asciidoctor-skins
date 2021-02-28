@@ -27,7 +27,7 @@ p{font-family: "Noto Sans",sans-serif ! important}
 #toc.toc2 a:link{color:var(--linkcolor);}
 blockquote{color:var(--tertiarycolor) !important}
 .quoteblock{color:var(--white)}
-code{color:var(--linkcoloralternate);background-color: var(--sidebarbackground) !important}
+:not(pre)>code{color:var(--linkcoloralternate);background-color: var(--sidebarbackground) !important}
 
 
 /* Table styles */

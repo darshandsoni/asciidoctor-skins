@@ -26,7 +26,7 @@ h3,h4,h5,h6{color:var(--secondarycolor);font-family: "Ubuntu",sans-serif;}
 .title{color:(--primarycolor) !important;font-family:"Ubuntu",sans-serif;font-style: normal; font-weight: normal;}
 p{font-family: "Ubuntu",sans-serif ! important}
 #toc.toc2 a:link{color:white;}
-code{background-color: var(--secondarycolor) !important;color:var(--white)}
+:not(pre)>code{background-color: var(--secondarycolor) !important;color:var(--white)}
 
 
 /* Table styles */

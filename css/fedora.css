@@ -30,7 +30,7 @@ p{font-family: "Open Sans",sans-serif ! important}
 #toc.toc2 a:link{color:var(--linkcolor);}
 blockquote{color:var(--linkcoloralternate) !important}
 .quoteblock blockquote:before{color:var(--linkcoloralternate)}
-code{color:var(--white);background-color: var(--highlightcolor) !important}
+:not(pre)>code{color:var(--white);background-color: var(--highlightcolor) !important}
 mark{background-color: var(--highlightcolor)} /* Text highlighting color */
 
 /* Table styles */

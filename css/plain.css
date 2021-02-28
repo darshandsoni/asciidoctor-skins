@@ -30,7 +30,7 @@ p{font-family: "Noto Sans",sans-serif ! important}
 blockquote{color:var(--secondarycolor) !important}
 .quoteblock{color:var(--black)}
 .quoteblock blockquote:before{color:var(--black)}
-code{color:var(--white);background-color: var(--secondarycolor) !important}
+:not(pre)>code{color:var(--white);background-color: var(--secondarycolor) !important}
 mark{background-color: var(--tertiarycolor)} /* Text highlighting color */
 
 /* Table styles */
