@@ -1,5 +1,5 @@
 /* Based on Superhero from Bootswatch (https://bootswatch.com/superhero/) */
-@import url("//fonts.googleapis.com/css?family=Lato:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
 
 /* document body (contains all content) */
 body {
@@ -341,7 +341,8 @@ video {
 }
 
 @media all and (max-width: 600px) {
-table {
-  width: 55vw!important;
-  font-size: 3vw;
+  table {
+    width: 55vw !important;
+    font-size: 3vw;
+  }
 }

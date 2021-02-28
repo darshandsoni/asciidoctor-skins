@@ -1,7 +1,7 @@
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
 
-@import url(//fonts.googleapis.com/css?family=Noto+Sans);
-@import url(https://cdn.jsdelivr.net/gh/asciidoctor/asciidoctor@2.0/data/stylesheets/asciidoctor-default.css); /* Default asciidoc style framework - important */
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans");
+@import url("https://cdn.jsdelivr.net/gh/asciidoctor/asciidoctor@2.0/data/stylesheets/asciidoctor-default.css"); /* Default asciidoc style framework - important */
 
 /* CUSTOMISATIONS */
 /* Change the values in root for quick customisation. If you want even more fine grain... venture further. */
@@ -30,7 +30,7 @@ p{font-family: "Noto Sans",sans-serif ! important}
 blockquote{color:var(--secondarycolor) !important}
 .quoteblock{color:var(--black)}
 .quoteblock blockquote:before{color:var(--black)}
-code{color:var(--white);background-color: var(--secondarycolor) !important}
+:not(pre)>code{color:var(--white);background-color: var(--secondarycolor) !important}
 mark{background-color: var(--tertiarycolor)} /* Text highlighting color */
 
 /* Table styles */
@@ -47,7 +47,8 @@ video {
 }
 
 @media all and (max-width: 600px) {
-table {
-  width: 55vw!important;
-  font-size: 3vw;
+  table {
+    width: 55vw !important;
+    font-size: 3vw;
+  }
 }

@@ -1,6 +1,4 @@
-/* Modified from https://github.com/edwardtufte/tufte-css */
-
-@charset "UTF-8";
+@charset "UTF-8"; /* Modified from https://github.com/edwardtufte/tufte-css */
 
 @font-face {
   font-family: "et-book";
@@ -201,7 +199,7 @@ video {
   max-width: 100%;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 0) { a:link { background-position-y: 87%, 87%, 87%; } }
+@media screen and (-webkit-min-device-pixel-ratio: 0) { a:link { background-position-y: 87%; } }
 
 a:link::selection { text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
                     background: #b4d5fe; }

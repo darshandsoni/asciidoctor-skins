@@ -1,7 +1,7 @@
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
 
-@import url(//fonts.googleapis.com/css?family=Ubuntu);
-@import url(//asciidoctor.org/stylesheets/asciidoctor.css); /* Default asciidoc style framework - important */
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://asciidoctor.org/stylesheets/asciidoctor.css"); /* Default asciidoc style framework - important */
 
 /* CUSTOMISATIONS */
 /* Change the values in root for quick customisation. If you want even more fine grain... venture further. */
@@ -23,10 +23,10 @@ body{font-family: "Ubuntu",sans-serif;}
 
 h1,h2{color:var(--primarycolor) !important;font-family:"Ubuntu",sans-serif;}
 h3,h4,h5,h6{color:var(--secondarycolor);font-family: "Ubuntu",sans-serif;}
-.title{color:(--primarycolor) !important;font-family:"Ubuntu",sans-serif;font-style: normal; font-weight: normal;}
+.title{color:var(--primarycolor) !important;font-family:"Ubuntu",sans-serif;font-style: normal; font-weight: normal;}
 p{font-family: "Ubuntu",sans-serif ! important}
 #toc.toc2 a:link{color:white;}
-code{background-color: var(--secondarycolor) !important;color:var(--white)}
+:not(pre)>code{background-color: var(--secondarycolor) !important;color:var(--white)}
 
 
 /* Table styles */
@@ -42,7 +42,8 @@ video {
 }
 
 @media all and (max-width: 600px) {
-table {
-  width: 55vw!important;
-  font-size: 3vw;
+  table {
+    width: 55vw !important;
+    font-size: 3vw;
+  }
 }
